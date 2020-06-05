@@ -38,16 +38,14 @@ export function getSortedPostsData(): MatterInfo[] {
       date: matterResult.data.date
     }
   });
-  console.log(allPostsData)
   // Sort posts by date
-  allPostsData.sort((a: MatterInfo, b: MatterInfo) => {
+  return allPostsData.sort((a: MatterInfo, b: MatterInfo) => {
     if (a.date < b.date) {
       return 1
     } else {
       return -1
     }
   })
-  return allPostsData;
 }
 
 export function getAllPostIds() {
