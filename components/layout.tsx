@@ -16,7 +16,7 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, home }) => {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={ `${process.env.BASE_URL}/favicon.ico` } />
         <meta name="description" content="DataScienceSlugs @ UCSC" />
       </Head>
       <header className={styles.header}>
