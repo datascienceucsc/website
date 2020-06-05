@@ -1,10 +1,12 @@
 // Init Stats
+/*
 var stats = new Stats();
 stats.setMode(0);
 stats.domElement.style.position = "absolute";
 stats.domElement.style.left = "0px";
 stats.domElement.style.top = "0px";
 document.body.appendChild(stats.domElement);
+*/
 
 /*!
  * Mantis.js / jQuery / Zepto.js plugin for Constellation
@@ -161,9 +163,9 @@ document.body.appendChild(stats.domElement);
 
       this.rAF = window.requestAnimationFrame(
         function () {
-          stats.begin();
+          // stats.begin();
           this.loop(callback);
-          stats.end();
+          // stats.end();
         }.bind(this)
       );
     };

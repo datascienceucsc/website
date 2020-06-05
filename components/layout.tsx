@@ -42,7 +42,6 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
           </div>
         ))}
       </nav>
-      <Constellation title={pageId} />
       <div className={styles.container}>
         <main>{children}</main>
         {pageId !== "home" && (
@@ -53,6 +52,7 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
           </div>
         )}
       </div>
+      <Constellation />
       <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js"></script>
       <script src={`${process.env.BASE_URL}/constellation.js`}></script>
