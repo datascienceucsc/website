@@ -11,6 +11,7 @@ export interface MatterInfo {
   id: string;
   title: string;
   date: string;
+  blog: boolean;
 }
 
 export interface PostData extends MatterInfo {
@@ -36,6 +37,7 @@ export function getSortedPostsData(): MatterInfo[] {
       id: id,
       title: matterResult.data.title,
       date: matterResult.data.date,
+      blog: matterResult.data.blog,
     };
   });
   // Sort posts by date
@@ -78,5 +80,6 @@ export async function getPostData(id): Promise<PostData> {
     contentHtml: contentHtml,
     date: matterResult.data.date,
     title: matterResult.data.title,
+    blog: matterResult.data.blog,
   };
 }

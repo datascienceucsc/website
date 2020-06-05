@@ -1,35 +1,51 @@
 import Head from "next/head";
 import Link from "next/link";
 
+import Constellation from "./constellation";
 import utilStyles from "../styles/utils.module.css";
 import { FunctionComponent } from "react";
 import styles from "./layout.module.css";
-
-const name = "DataScienceSlugs";
-export const siteTitle = "DataScienceSlugs @ UCSC";
+import { name, siteTitle, navBar } from "../config";
 
 type LayoutProps = {
   children: any[];
-  home?: boolean;
+  pageId: string;
 };
 
-const Layout: FunctionComponent<LayoutProps> = ({ children, home }) => {
+const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
   return (
     <>
       <Head>
         <link rel="icon" href={`${process.env.BASE_URL}/favicon.ico`} />
         <meta name="description" content="DataScienceSlugs @ UCSC" />
       </Head>
-      <div className={styles.container}>
-        <header className={styles.header}>
-          <h2 className={utilStyles.headingLg}>
-            <Link href="/" as={process.env.BASE_URL + "/"}>
-              <a className={utilStyles.colorInherit}>{name}</a>
+      <nav>
+        <div key="home">
+          <Link href="/" as={process.env.BASE_URL + "/"}>
+            <a>
+              <img
+                src={`${process.env.BASE_URL}/images/full-logo.png`}
+                alt="Home"
+                className="fullLogo"
+              />
+            </a>
+          </Link>
+        </div>
+        {navBar.map(({ linkText, pageId }) => (
+          <div key={pageId}>
+            <Link
+              href={`${process.env.BASE_URL}/posts/${pageId}`}
+              as={`${process.env.BASE_URL}/posts/${pageId}`}
+            >
+              <a className="navItem">{linkText}</a>
             </Link>
-          </h2>
-        </header>
+          </div>
+        ))}
+      </nav>
+      <Constellation title={pageId} />
+      <div className={styles.container}>
         <main>{children}</main>
-        {!home && (
+        {pageId !== "home" && (
           <div className={styles.backToHome}>
             <Link href="/" as={process.env.BASE_URL + "/"}>
               <a>← Back to home</a>
@@ -37,6 +53,9 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, home }) => {
           </div>
         )}
       </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js"></script>
+      <script src={`${process.env.BASE_URL}/constellation.js`}></script>
     </>
   );
 };

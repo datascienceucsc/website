@@ -2,9 +2,11 @@ import { FunctionComponent } from "react";
 import Head from "next/head";
 import Link from "next/link";
 
-import Layout, { siteTitle } from "../components/layout";
+import Layout from "../components/layout";
+import { siteTitle } from "../config";
 import Date from "../components/date";
 import { getSortedPostsData, MatterInfo } from "../lib/posts";
+import people from "../data";
 import utilStyles from "../styles/utils.module.css";
 
 interface IndexProps {
@@ -13,7 +15,7 @@ interface IndexProps {
 
 const Home: FunctionComponent<IndexProps> = ({ allPostsData }) => {
   return (
-    <Layout home>
+    <Layout pageId="home">
       <Head>
         <title>{siteTitle}</title>
       </Head>
@@ -23,20 +25,23 @@ const Home: FunctionComponent<IndexProps> = ({ allPostsData }) => {
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-              <Link
-                href={`${process.env.BASE_URL}/posts/[id]`}
-                as={`${process.env.BASE_URL}/posts/${id}`}
-              >
-                <a>{title}</a>
-              </Link>
-              <br />
-              <small className={utilStyles.lightText}>
-                <Date dateString={date} />
-              </small>
-            </li>
-          ))}
+          {allPostsData
+            // dont show non-blog pages on the blog
+            .filter(({ blog }) => blog)
+            .map(({ id, date, title }) => (
+              <li className={utilStyles.listItem} key={id}>
+                <Link
+                  href={`${process.env.BASE_URL}/posts/[id]`}
+                  as={`${process.env.BASE_URL}/posts/${id}`}
+                >
+                  <a>{title}</a>
+                </Link>
+                <br />
+                <small className={utilStyles.lightText}>
+                  <Date dateString={date} />
+                </small>
+              </li>
+            ))}
         </ul>
       </section>
     </Layout>

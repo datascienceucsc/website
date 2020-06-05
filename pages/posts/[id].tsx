@@ -1,6 +1,7 @@
 import { FunctionComponent } from "react";
 import Head from "next/head";
 
+import { siteTitle } from "../../config";
 import Layout from "../../components/layout";
 import Date from "../../components/date";
 import { getAllPostIds, getPostData, PostData } from "../../lib/posts";
@@ -12,15 +13,18 @@ interface PostProps {
 
 const Post: FunctionComponent<PostProps> = ({ postData }) => {
   return (
-    <Layout>
+    <Layout pageId={postData.id}>
       <Head>
-        <title>{postData.title}</title>
+        <title>
+          {siteTitle} - {postData.title}
+        </title>
       </Head>
       <article>
-        <h1 className={utilStyles.headingXl}>{postData.title}</h1>
-        <div className={utilStyles.lightText}>
-          <Date dateString={postData.date} />
-        </div>
+        {postData.blog ? (
+          <div className={utilStyles.lightText}>
+            <Date dateString={postData.date} />
+          </div>
+        ) : null}
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>
