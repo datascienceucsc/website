@@ -1,10 +1,11 @@
-import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
-import utilStyles from "../styles/utils.module.css";
-import { getSortedPostsData, MatterInfo } from "../lib/posts";
-import Link from "next/link";
-import Date from "../components/date";
 import { FunctionComponent } from "react";
+import Head from "next/head";
+import Link from "next/link";
+
+import Layout, { siteTitle } from "../components/layout";
+import Date from "../components/date";
+import { getSortedPostsData, MatterInfo } from "../lib/posts";
+import utilStyles from "../styles/utils.module.css";
 
 interface IndexProps {
   allPostsData: MatterInfo[];
@@ -43,7 +44,7 @@ const Home: FunctionComponent<IndexProps> = ({ allPostsData }) => {
 };
 
 export async function getStaticProps() {
-  const allPostsData = getSortedPostsData();
+  let allPostsData: MatterInfo[] = getSortedPostsData();
   return {
     props: {
       allPostsData,
