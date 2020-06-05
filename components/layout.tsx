@@ -2,11 +2,17 @@ import Head from 'next/head'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import { FunctionComponent } from "react";
 
 const name = 'DataScienceSlugs'
 export const siteTitle = 'DataScienceSlugs @ UCSC'
 
-export default function Layout({ children, home }) {
+type LayoutProps = {
+  children: any[];
+  home?: boolean;
+}
+
+const Layout :FunctionComponent<LayoutProps> = ({ children, home }) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -33,4 +39,6 @@ export default function Layout({ children, home }) {
       )}
     </div>
   )
-}
+};
+
+export default Layout;

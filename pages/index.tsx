@@ -1,11 +1,16 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
-import { getSortedPostsData } from '../lib/posts'
+import { getSortedPostsData, MatterInfo } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
+import { FunctionComponent } from "react";
 
-export default function Home({ allPostsData }) {
+interface IndexProps {
+  allPostsData: MatterInfo[];
+}
+
+const Home: FunctionComponent<IndexProps> = ({ allPostsData }) => {
   return (
     <Layout home>
       <Head>
@@ -42,3 +47,5 @@ export async function getStaticProps() {
     }
   }
 }
+
+export default Home;
