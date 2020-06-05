@@ -23499,7 +23499,7 @@ function Home(_ref) {
         columnNumber: 13
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
-      href: "/posts/[id]",
+      href: "".concat("", "/posts/[id]"),
       as: "".concat("", "/posts/").concat(id),
       __self: _this,
       __source: {
