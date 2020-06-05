@@ -1,5 +1,45 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
+/***/ "./components/constellation.tsx":
+/*!**************************************!*\
+  !*** ./components/constellation.tsx ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _this = undefined,
+    _jsxFileName = "/home/sean/code/datascienceslugs.github.io/components/constellation.tsx";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var Constellation = function Constellation(_ref) {
+  var title = _ref.title;
+  return __jsx("canvas", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 5
+    }
+  }, __jsx("h2", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 7
+    }
+  }, title));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Constellation);
+
+/***/ }),
+
 /***/ "./components/date.tsx":
 /*!*****************************!*\
   !*** ./components/date.tsx ***!
@@ -98,22 +138,21 @@ if (true) {
 /*!*******************************!*\
   !*** ./components/layout.tsx ***!
   \*******************************/
-/*! exports provided: siteTitle, default */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "siteTitle", function() { return siteTitle; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _layout_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./layout.module.css */ "./components/layout.module.css");
-/* harmony import */ var _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_layout_module_css__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/utils.module.css */ "./styles/utils.module.css");
-/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _constellation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./constellation */ "./components/constellation.tsx");
+/* harmony import */ var _layout_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./layout.module.css */ "./components/layout.module.css");
+/* harmony import */ var _layout_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_layout_module_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../config */ "./config.tsx");
 var _this = undefined,
     _jsxFileName = "/home/sean/code/datascienceslugs.github.io/components/layout.tsx";
 
@@ -123,21 +162,12 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var name = "DataScienceSlugs";
-var siteTitle = "DataScienceSlugs @ UCSC";
+
 
 var Layout = function Layout(_ref) {
   var children = _ref.children,
-      home = _ref.home;
-  return __jsx("div", {
-    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.container,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 5
-    }
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      pageId = _ref.pageId;
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -162,23 +192,22 @@ var Layout = function Layout(_ref) {
       lineNumber: 20,
       columnNumber: 9
     }
-  })), __jsx("header", {
-    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.header,
+  })), __jsx("nav", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
       columnNumber: 7
     }
-  }, __jsx("h2", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.headingLg,
+  }, __jsx("div", {
+    key: "home",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
       columnNumber: 9
     }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     as: "" + "/",
     __self: _this,
@@ -188,48 +217,152 @@ var Layout = function Layout(_ref) {
       columnNumber: 11
     }
   }, __jsx("a", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.colorInherit,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
       columnNumber: 13
     }
-  }, name)))), __jsx("main", {
+  }, __jsx("img", {
+    src: "".concat("", "/images/full-logo.png"),
+    alt: "Home",
+    className: "fullLogo",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 26,
+      columnNumber: 15
+    }
+  })))), _config__WEBPACK_IMPORTED_MODULE_5__["navBar"].map(function (_ref2) {
+    var linkText = _ref2.linkText,
+        pageId = _ref2.pageId;
+    return __jsx("div", {
+      key: pageId,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35,
+        columnNumber: 11
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "".concat("", "/posts/").concat(pageId),
+      as: "".concat("", "/posts/").concat(pageId),
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36,
+        columnNumber: 13
+      }
+    }, __jsx("a", {
+      className: "navItem",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40,
+        columnNumber: 15
+      }
+    }, linkText)));
+  })), __jsx(_constellation__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: pageId,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
       columnNumber: 7
     }
-  }, children), !home && __jsx("div", {
-    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.backToHome,
+  }), __jsx("div", {
+    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.container,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 46,
+      columnNumber: 7
+    }
+  }, __jsx("main", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
       columnNumber: 9
     }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  }, children), pageId !== "home" && __jsx("div", {
+    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.backToHome,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 11
+    }
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     as: "" + "/",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 11
+      lineNumber: 50,
+      columnNumber: 13
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 13
+      lineNumber: 51,
+      columnNumber: 15
     }
-  }, "\u2190 Back to home"))));
+  }, "\u2190 Back to home")))), __jsx("script", {
+    src: "https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 7
+    }
+  }), __jsx("script", {
+    src: "https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57,
+      columnNumber: 7
+    }
+  }), __jsx("script", {
+    src: "".concat("", "/constellation.js"),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58,
+      columnNumber: 7
+    }
+  }));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ }),
+
+/***/ "./config.tsx":
+/*!********************!*\
+  !*** ./config.tsx ***!
+  \********************/
+/*! exports provided: name, siteTitle, navBar */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "name", function() { return name; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "siteTitle", function() { return siteTitle; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "navBar", function() { return navBar; });
+// defines configuration for the website
+// name of site/title
+var name = "DataScienceSlugs";
+var siteTitle = "DSS @ UCSC";
+// define pages linked in the header
+// these ids correspond to the names of pages (without .md) in posts
+// the Home link is added automatically at the beginning of this list
+var navBar = [{
+  linkText: "About",
+  pageId: "about"
+}];
 
 /***/ }),
 
@@ -23391,12 +23524,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/layout */ "./components/layout.tsx");
-/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/utils.module.css */ "./styles/utils.module.css");
-/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/layout */ "./components/layout.tsx");
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../config */ "./config.tsx");
 /* harmony import */ var _components_date__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/date */ "./components/date.tsx");
+/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/utils.module.css */ "./styles/utils.module.css");
+/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6__);
 var _this = undefined,
     _jsxFileName = "/home/sean/code/datascienceslugs.github.io/pages/index.tsx";
 
@@ -23408,120 +23542,125 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 var Home = function Home(_ref) {
   var allPostsData = _ref.allPostsData;
-  return __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    home: true,
+  return __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    pageId: "home",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
+      lineNumber: 18,
       columnNumber: 5
     }
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 19,
       columnNumber: 7
     }
   }, __jsx("title", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 9
-    }
-  }, _components_layout__WEBPACK_IMPORTED_MODULE_2__["siteTitle"])), __jsx("section", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.headingMd,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 7
-    }
-  }, __jsx("p", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 20,
       columnNumber: 9
     }
-  }, "Data Science Stuff")), __jsx("section", {
-    className: "".concat(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.headingMd, " ").concat(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.padding1px),
+  }, _config__WEBPACK_IMPORTED_MODULE_4__["siteTitle"])), __jsx("section", {
+    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.headingMd,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
       columnNumber: 7
     }
-  }, __jsx("h2", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.headingLg,
+  }, __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
       columnNumber: 9
     }
-  }, "Blog"), __jsx("ul", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.list,
+  }, "Data Science Stuff")), __jsx("section", {
+    className: "".concat(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.headingMd, " ").concat(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.padding1px),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 25,
+      columnNumber: 7
+    }
+  }, __jsx("h2", {
+    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.headingLg,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
       columnNumber: 9
     }
-  }, allPostsData.map(function (_ref2) {
-    var id = _ref2.id,
-        date = _ref2.date,
-        title = _ref2.title;
+  }, "Blog"), __jsx("ul", {
+    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.list,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 9
+    }
+  }, allPostsData // dont show non-blog pages on the blog
+  .filter(function (_ref2) {
+    var blog = _ref2.blog;
+    return blog;
+  }).map(function (_ref3) {
+    var id = _ref3.id,
+        date = _ref3.date,
+        title = _ref3.title;
     return __jsx("li", {
-      className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.listItem,
+      className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.listItem,
       key: id,
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
-        columnNumber: 13
+        lineNumber: 32,
+        columnNumber: 15
       }
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: "".concat("", "/posts/[id]"),
       as: "".concat("", "/posts/").concat(id),
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27,
-        columnNumber: 15
+        lineNumber: 33,
+        columnNumber: 17
       }
     }, __jsx("a", {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31,
-        columnNumber: 17
+        lineNumber: 37,
+        columnNumber: 19
       }
     }, title)), __jsx("br", {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33,
-        columnNumber: 15
+        lineNumber: 39,
+        columnNumber: 17
       }
     }), __jsx("small", {
-      className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.lightText,
+      className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.lightText,
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34,
-        columnNumber: 15
+        lineNumber: 40,
+        columnNumber: 17
       }
     }, __jsx(_components_date__WEBPACK_IMPORTED_MODULE_5__["default"], {
       dateString: date,
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35,
-        columnNumber: 17
+        lineNumber: 41,
+        columnNumber: 19
       }
     })));
   }))));
