@@ -146,7 +146,7 @@ var Layout = function Layout(_ref) {
     }
   }, __jsx("link", {
     rel: "icon",
-    href: "/favicon.ico",
+    href: "".concat("", "/favicon.ico"),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
