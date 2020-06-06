@@ -7,16 +7,6 @@
   padding-bottom: 100px; /* height of your footer */
 }
 
-.content {
-  max-width: 40rem;
-  padding: 0 1rem;
-  margin-right: auto;
-  margin-top: 3rem;
-  margin-left: auto;
-  z-index: 1;
-  position: relative;
-}
-
 .header {
   display: flex;
   flex-direction: column;
