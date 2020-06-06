@@ -20,7 +20,9 @@ export interface PostData extends MatterInfo {
 
 export function getSortedPostsData(): MatterInfo[] {
   // Get file names under /posts
-  const fileNames = fs.readdirSync(postsDirectory);
+  const fileNames = fs
+    .readdirSync(postsDirectory)
+    .filter((f) => f.endsWith("*.md"));
   const allPostsData = fileNames.map((fileName) => {
     // Remove ".md" from file name to get id
     const id = fileName.replace(/\.md$/, "");
@@ -51,7 +53,9 @@ export function getSortedPostsData(): MatterInfo[] {
 }
 
 export function getAllPostIds() {
-  const fileNames = fs.readdirSync(postsDirectory);
+  const fileNames = fs
+    .readdirSync(postsDirectory)
+    .filter((f) => f.endsWith("*.md"));
   return fileNames.map((fileName) => {
     return {
       params: {
