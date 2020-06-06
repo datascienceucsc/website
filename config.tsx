@@ -17,4 +17,12 @@ export const navBar = [
     linkText: "About",
     pageId: "about",
   },
+  {
+    linkText: "Resources",
+    pageId: "resources"
+  },
+  {
+    linkText: "What is data science?",
+    pageId: "what_is_ds"
+  }
 ];
