@@ -21,7 +21,7 @@ export const footerLinks = [
 
   {
     href: "https://www.linkedin.com/company/datascienceucsc/",
-    linkText: "Linktext",
+    linkText: "LinkedIn",
   },
 
   {
