@@ -2,7 +2,9 @@ const webpack = require("webpack");
 
 const isProd = (process.env.NODE_ENV || "production") === "production";
 
-const assetPrefix = isProd ? "/website" : "";
+// if hosting on gitlab, uncomment this line
+// const assetPrefix = isProd ? "/website" : "";
+const assetPrefix = "";
 
 module.exports = {
   /* exportPathMap: () => ({
