@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 
-import Constellation from "./constellation";
 import utilStyles from "../styles/utils.module.css";
 import { FunctionComponent } from "react";
 import styles from "./layout.module.css";
@@ -18,16 +17,13 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
       <Head>
         <link rel="icon" href={`${process.env.BASE_URL}/favicon.ico`} />
         <meta name="description" content={siteTitle} />
+        /* for constellations on the home page, keep this in layout so that it
+        doesnt get diffed out */
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js"></script>
+        <script src={`${process.env.BASE_URL}/constellation.js`}></script>
       </Head>
       <div className={styles.PageContainer}>
-        {pageId === "home" && (
-          <>
-            <Constellation />
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js"></script>
-            <script src={`${process.env.BASE_URL}/constellation.js`}></script>
-          </>
-        )}
         <nav>
           <div key="home">
             <Link href="/" as={process.env.BASE_URL + "/"}>

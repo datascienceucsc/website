@@ -1,8 +1,16 @@
-import { FunctionComponent } from "react";
+import React from "react";
 import utilStyles from "../styles/utils.module.css";
 
-const Constellation: FunctionComponent = () => {
-  return <canvas></canvas>;
-};
+export default class Constellation extends React.Component {
+  componentDidMount() {
+    // calls the javascript function that initializes the animation
+    // @ts-ignore
+    window.initPlugin();
+    console.log("Running plugin");
+  }
 
-export default Constellation;
+  // this doesnt create the canvas, the canvas is created in JS in constellation.js
+  render() {
+    return null;
+  }
+}

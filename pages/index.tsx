@@ -2,6 +2,7 @@ import { FunctionComponent } from "react";
 import Head from "next/head";
 import Link from "next/link";
 
+import Constellation from "./../components/constellation";
 import Layout from "../components/layout";
 import { siteTitle } from "../config";
 import Date from "../components/date";
@@ -19,6 +20,7 @@ const Home: FunctionComponent<IndexProps> = ({ allPostsData }) => {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      <Constellation />
       <section>
         <h2>Data Science @ SC</h2>
         <hr />

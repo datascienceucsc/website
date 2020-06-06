@@ -9,7 +9,7 @@ import { name, siteTitle, navBar } from "../config";
 function Error({ statusCode }) {
   return (
     <>
-      <Layout pageId={statusCode?statusCode.toString():"Error"}>
+      <Layout pageId={statusCode ? statusCode.toString() : "Error"}>
         <Head>
           <title>
             {siteTitle} - {statusCode}
@@ -19,7 +19,7 @@ function Error({ statusCode }) {
           <p>
             {statusCode
               ? `Error | ${statusCode} - ${status[statusCode]}`
-              : "Error | ClientError; try using a different browser."}
+              : "Error | ClientError; check the console or reload the page."}
           </p>
         </div>
       </Layout>
