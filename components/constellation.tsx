@@ -6,7 +6,6 @@ export default class Constellation extends React.Component {
     // calls the javascript function that initializes the animation
     // @ts-ignore
     window.initPlugin();
-    console.log("Running plugin");
   }
 
   // this doesnt create the canvas, the canvas is created in JS in constellation.js

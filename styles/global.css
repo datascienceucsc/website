@@ -24,7 +24,7 @@ body {
 }
 
 .content {
-  max-width: 40rem;
+  max-width: 38rem;
   padding: 0 1rem;
   margin-right: auto;
   margin-top: 3rem;
@@ -68,22 +68,43 @@ nav {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  height: max(8vh, 56px);
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
 }
 
+@media only screen and (max-width: 800px) {
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  nav img {
+    margin: 1.25rem !important;
+  }
+  nav > div:not(:first-child) {
+    text-align: center;
+    border-radius: 3px;
+  }
+}
+
+nav > div:not(:first-child):hover {
+  background-color: #384474;
+  transition: 0.5s;
+  padding-bottom: 4px;
+}
+
 nav .navItem {
-  height: max(8vh, 56px);
+  height: auto;
   color: white;
   font-size: 1.1rem;
   font-variant: small-caps;
   text-rendering: auto;
   text-align: center;
   vertical-align: middle;
-  margin-left: 1.25rem;
+  margin-left: 0.625rem;
+  margin-right: 0.625rem;
   text-decoration: none;
 }
 
@@ -95,6 +116,7 @@ nav a:hover {
 
 nav a .fullLogo {
   height: 50px;
+  margin-right: 0.625rem;
   height: max(8vh, 56px);
 }
 
@@ -139,12 +161,6 @@ footer {
   margin-top: 4rem;
 }
 
-@media only screen and (max-width: 1000) and (min-width: 650px) {
-  .content {
-    max-width: 34rem;
-  }
-}
-
 @media only screen and (max-width: 650px) {
   .footerContent {
     flex-direction: column;
@@ -152,9 +168,6 @@ footer {
     padding-bottom: 2rem;
   }
   .backToHome {
-    margin-bottom: 10rem;
-  }
-  .content {
-    max-width: 28rem;
+    margin-bottom: 50vh;
   }
 }

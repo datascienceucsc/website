@@ -56,7 +56,7 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
               </Link>
             </div>
           ) : (
-            <div className={styles.backToHome}></div>
+            <div className="backToHome"></div>
           )}
         </div>
         <footer>
