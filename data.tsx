@@ -21,6 +21,11 @@ const people = [
     role: "Officer",
   },
   {
+    id: "garret",
+    name: "Garret Leising",
+    role: "",
+  },
+  {
     id: "bijay",
     name: "Bijay Khadja",
     role: "Officer",
