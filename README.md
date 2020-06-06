@@ -1,6 +1,6 @@
 ## Data Science @ SC website.
 
-Uses Next.js, generates a static site at <https://datascienceslugs.github.io/website/>.
+Uses Next.js, generates a static site at <https://datasciencesc.netlify.app/>
 
 ### Modification Instructions
 
