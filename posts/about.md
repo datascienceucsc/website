@@ -22,6 +22,8 @@ Some of the things we do
 
 Meetings are Monday 6pm @McHenry 1270 (Down to the left near the main entrance, near the math sections)
 
+Currently we don't meet in person due to COVID.
+
 Additional reading groups and specific projects hold extra meetings in the week.
 
 ## Joining
