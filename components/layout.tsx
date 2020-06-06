@@ -16,21 +16,21 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
   return (
     <>
       <Head>
-        <link rel="icon" href={`${process.env.BASE_URL}/favicon.ico`} />
+        <link rel="icon" href="/favicon.ico" />
         <meta name="description" content={siteTitle} />
         /* for constellations on the home page, keep this in layout so that it
         doesnt get diffed out */
         <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js"></script>
-        <script src={`${process.env.BASE_URL}/constellation.js`}></script>
+        <script src={`/constellation.js`}></script>
       </Head>
       <div className={styles.PageContainer}>
         <nav>
           <div key="home">
-            <Link href="/" as={process.env.BASE_URL + "/"}>
+            <Link href="/">
               <a>
                 <img
-                  src={`${process.env.BASE_URL}/images/menu-bar.png`}
+                  src="/images/menu-bar.png"
                   alt="Home"
                   className="fullLogo"
                 />
@@ -39,10 +39,7 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
           </div>
           {navBar.map(({ linkText, pageId }) => (
             <div key={pageId}>
-              <Link
-                href={`${process.env.BASE_URL}/posts/${pageId}`}
-                as={`${process.env.BASE_URL}/posts/${pageId}`}
-              >
+              <Link href={`/posts/${pageId}`} as={`/posts/${pageId}`}>
                 <a className="navItem">{linkText}</a>
               </Link>
             </div>
@@ -52,7 +49,7 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
           <main>{children}</main>
           {pageId !== "home" ? (
             <div className="backToHome">
-              <Link href="/" as={process.env.BASE_URL + "/"}>
+              <Link href="/">
                 <a>← Back to home</a>
               </Link>
             </div>

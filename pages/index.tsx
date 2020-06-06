@@ -45,10 +45,7 @@ const Home: FunctionComponent<IndexProps> = ({ allPostsData }) => {
             .filter(({ blog }) => blog)
             .map(({ id, date, title }) => (
               <li className={utilStyles.listItem} key={id}>
-                <Link
-                  href={`${process.env.BASE_URL}/posts/[id]`}
-                  as={`${process.env.BASE_URL}/posts/${id}`}
-                >
+                <Link href="/posts/[id]" as={`/posts/${id}`}>
                   <a className={utilStyles.blogLink}>{title}</a>
                 </Link>
                 <small className={utilStyles.lightText}>
