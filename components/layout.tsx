@@ -20,6 +20,14 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
         <meta name="description" content={siteTitle} />
       </Head>
       <div className={styles.PageContainer}>
+        {pageId === "home" && (
+          <>
+            <Constellation />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js"></script>
+            <script src={`${process.env.BASE_URL}/constellation.js`}></script>
+          </>
+        )}
         <nav>
           <div key="home">
             <Link href="/" as={process.env.BASE_URL + "/"}>
@@ -45,14 +53,7 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
         </nav>
         <div className={styles.content}>
           <main>{children}</main>
-          {pageId === "home" ? (
-            <>
-              <Constellation />
-              <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
-              <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js"></script>
-              <script src={`${process.env.BASE_URL}/constellation.js`}></script>
-            </>
-          ) : (
+          {pageId !== "home" && (
             <div className={styles.backToHome}>
               <Link href="/" as={process.env.BASE_URL + "/"}>
                 <a>← Back to home</a>
