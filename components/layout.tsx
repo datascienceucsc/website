@@ -66,6 +66,11 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
               <a href="https://github.com/datascienceslugs">Github</a>
             </div>
             <div>
+              <a href="https://www.instagram.com/datascienceucsc/?igshid=1kwj608v894a5">
+                Instagram
+              </a>
+            </div>
+            <div>
               <a href="https://www.linkedin.com/company/datascienceucsc/">
                 LinkedIn
               </a>
