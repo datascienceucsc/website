@@ -17,7 +17,7 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
     <>
       <Head>
         <link rel="icon" href={`${process.env.BASE_URL}/favicon.ico`} />
-        <meta name="description" content="DataScienceSlugs @ UCSC" />
+        <meta name="description" content={siteTitle} />
       </Head>
       <nav>
         <div key="home">
