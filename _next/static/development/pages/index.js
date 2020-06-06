@@ -185,7 +185,7 @@ var Layout = function Layout(_ref) {
       columnNumber: 9
     }
   })), __jsx("div", {
-    "class": _layout_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.PageContainer,
+    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.PageContainer,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -371,14 +371,14 @@ var Layout = function Layout(_ref) {
       columnNumber: 13
     }
   }, __jsx("a", {
-    href: "https://www.linkedin.com/company/datascienceucsc/",
+    href: "https://www.instagram.com/datascienceucsc/?igshid=1kwj608v894a5",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 69,
       columnNumber: 15
     }
-  }, "LinkedIn")), __jsx("div", {
+  }, "Instagram")), __jsx("div", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -386,11 +386,26 @@ var Layout = function Layout(_ref) {
       columnNumber: 13
     }
   }, __jsx("a", {
-    href: "mailto:ucscdatascience@gmail.com",
+    href: "https://www.linkedin.com/company/datascienceucsc/",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 74,
+      columnNumber: 15
+    }
+  }, "LinkedIn")), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78,
+      columnNumber: 13
+    }
+  }, __jsx("a", {
+    href: "mailto:ucscdatascience@gmail.com",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 79,
       columnNumber: 15
     }
   }, "Email Us!"))))));
@@ -921,7 +936,7 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "/* container  for entire page*/\n.layout_PageContainer__u6MZq {\n  min-height: 100vh; /* will cover the 100% of viewport */\n  overflow: hidden;\n  display: block;\n  position: relative;\n  padding-bottom: 100px; /* height of your footer */\n}\n\n.layout_content__3AeaV {\n  max-width: 36rem;\n  padding: 0 1rem;\n  margin-right: auto;\n  margin-top: 3rem;\n  margin-left: auto;\n  z-index: 1;\n  position: relative;\n}\n\n.layout_header__2rhWq {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.layout_backToHome__1vZsp {\n  margin-top: 4rem;\n}\n\n.layout_footer__127N0 {\n  text-align: center;\n  margin-left: auto;\n  margin-right: auto;\n  bottom: 0;\n  position: absolute;\n  width: 100%;\n  box-sizing: border-box;\n  background-color: #0a3144;\n}\n\n.layout_footerContent__2UwFd {\n  display: flex;\n  padding-top: 4rem;\n  margin-left: 30%;\n  margin-right: 30%;\n  padding: 1rem;\n  justify-content: space-around;\n}\n", "",{"version":3,"sources":["/home/sean/code/datascienceslugs.github.io/components/layout.module.css"],"names":[],"mappings":"AAAA,8BAA8B;AAC9B;EACE,iBAAiB,EAAE,oCAAoC;EACvD,gBAAgB;EAChB,cAAc;EACd,kBAAkB;EAClB,qBAAqB,EAAE,0BAA0B;AACnD;;AAEA;EACE,gBAAgB;EAChB,eAAe;EACf,kBAAkB;EAClB,gBAAgB;EAChB,iBAAiB;EACjB,UAAU;EACV,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;EAClB,iBAAiB;EACjB,kBAAkB;EAClB,SAAS;EACT,kBAAkB;EAClB,WAAW;EACX,sBAAsB;EACtB,yBAAyB;AAC3B;;AAEA;EACE,aAAa;EACb,iBAAiB;EACjB,gBAAgB;EAChB,iBAAiB;EACjB,aAAa;EACb,6BAA6B;AAC/B","file":"layout.module.css","sourcesContent":["/* container  for entire page*/\n.PageContainer {\n  min-height: 100vh; /* will cover the 100% of viewport */\n  overflow: hidden;\n  display: block;\n  position: relative;\n  padding-bottom: 100px; /* height of your footer */\n}\n\n.content {\n  max-width: 36rem;\n  padding: 0 1rem;\n  margin-right: auto;\n  margin-top: 3rem;\n  margin-left: auto;\n  z-index: 1;\n  position: relative;\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.backToHome {\n  margin-top: 4rem;\n}\n\n.footer {\n  text-align: center;\n  margin-left: auto;\n  margin-right: auto;\n  bottom: 0;\n  position: absolute;\n  width: 100%;\n  box-sizing: border-box;\n  background-color: #0a3144;\n}\n\n.footerContent {\n  display: flex;\n  padding-top: 4rem;\n  margin-left: 30%;\n  margin-right: 30%;\n  padding: 1rem;\n  justify-content: space-around;\n}\n"]}]);
+exports.push([module.i, "/* container  for entire page*/\n.layout_PageContainer__u6MZq {\n  min-height: 100vh; /* will cover the 100% of viewport */\n  overflow: hidden;\n  display: block;\n  position: relative;\n  padding-bottom: 100px; /* height of your footer */\n}\n\n.layout_content__3AeaV {\n  max-width: 36rem;\n  padding: 0 1rem;\n  margin-right: auto;\n  margin-top: 3rem;\n  margin-left: auto;\n  z-index: 1;\n  position: relative;\n}\n\n.layout_header__2rhWq {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.layout_backToHome__1vZsp {\n  margin-top: 4rem;\n}\n\n.layout_footer__127N0 {\n  text-align: center;\n  margin-left: auto;\n  margin-right: auto;\n  bottom: 0;\n  z-index: 1;\n  position: absolute;\n  width: 100%;\n  box-sizing: border-box;\n  background-color: #0a3144;\n}\n\n.layout_footerContent__2UwFd {\n  display: flex;\n  padding-top: 4rem;\n  margin-left: 30%;\n  margin-right: 30%;\n  padding: 1rem;\n  justify-content: space-around;\n}\n", "",{"version":3,"sources":["/home/sean/code/datascienceslugs.github.io/components/layout.module.css"],"names":[],"mappings":"AAAA,8BAA8B;AAC9B;EACE,iBAAiB,EAAE,oCAAoC;EACvD,gBAAgB;EAChB,cAAc;EACd,kBAAkB;EAClB,qBAAqB,EAAE,0BAA0B;AACnD;;AAEA;EACE,gBAAgB;EAChB,eAAe;EACf,kBAAkB;EAClB,gBAAgB;EAChB,iBAAiB;EACjB,UAAU;EACV,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;EAClB,iBAAiB;EACjB,kBAAkB;EAClB,SAAS;EACT,UAAU;EACV,kBAAkB;EAClB,WAAW;EACX,sBAAsB;EACtB,yBAAyB;AAC3B;;AAEA;EACE,aAAa;EACb,iBAAiB;EACjB,gBAAgB;EAChB,iBAAiB;EACjB,aAAa;EACb,6BAA6B;AAC/B","file":"layout.module.css","sourcesContent":["/* container  for entire page*/\n.PageContainer {\n  min-height: 100vh; /* will cover the 100% of viewport */\n  overflow: hidden;\n  display: block;\n  position: relative;\n  padding-bottom: 100px; /* height of your footer */\n}\n\n.content {\n  max-width: 36rem;\n  padding: 0 1rem;\n  margin-right: auto;\n  margin-top: 3rem;\n  margin-left: auto;\n  z-index: 1;\n  position: relative;\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.backToHome {\n  margin-top: 4rem;\n}\n\n.footer {\n  text-align: center;\n  margin-left: auto;\n  margin-right: auto;\n  bottom: 0;\n  z-index: 1;\n  position: absolute;\n  width: 100%;\n  box-sizing: border-box;\n  background-color: #0a3144;\n}\n\n.footerContent {\n  display: flex;\n  padding-top: 4rem;\n  margin-left: 30%;\n  margin-right: 30%;\n  padding: 1rem;\n  justify-content: space-around;\n}\n"]}]);
 // Exports
 exports.locals = {
 	"PageContainer": "layout_PageContainer__u6MZq",
@@ -23652,7 +23667,7 @@ var Home = function Home(_ref) {
       lineNumber: 23,
       columnNumber: 9
     }
-  }, "Data Science Club @ SC"), __jsx("hr", {
+  }, "Data Science @ SC"), __jsx("hr", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -23824,7 +23839,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 1:
 /*!***************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fsean%2Fcode%2Fdatascienceslugs.github.io%2Fpages%2Findex.tsx ***!
   \***************************************************************************************************************************************/
@@ -23847,5 +23862,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
