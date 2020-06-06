@@ -9,7 +9,7 @@ import { name, siteTitle, navBar } from "../config";
 function Error({ statusCode }) {
   return (
     <>
-      <Layout pageId={statusCode.toString()}>
+      <Layout pageId={statusCode?statusCode.toString():"Error"}>
         <Head>
           <title>
             {siteTitle} - {statusCode}
