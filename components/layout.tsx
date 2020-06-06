@@ -24,7 +24,7 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
           <Link href="/" as={process.env.BASE_URL + "/"}>
             <a>
               <img
-                src={`${process.env.BASE_URL}/images/full-logo.png`}
+                src={`${process.env.BASE_URL}/images/menu-bar.png`}
                 alt="Home"
                 className="fullLogo"
               />
