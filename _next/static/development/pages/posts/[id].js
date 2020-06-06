@@ -473,7 +473,7 @@ var Layout = function Layout(_ref) {
       columnNumber: 17
     }
   }, "\u2190 Back to home"))) : __jsx("div", {
-    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.backToHome,
+    className: "backToHome",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -1103,11 +1103,10 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "/* container  for entire page*/\n.layout_PageContainer__u6MZq {\n  min-height: 100vh; /* will cover the 100% of viewport */\n  overflow: hidden;\n  display: block;\n  position: relative;\n  padding-bottom: 100px; /* height of your footer */\n}\n\n.layout_content__3AeaV {\n  max-width: 40rem;\n  padding: 0 1rem;\n  margin-right: auto;\n  margin-top: 3rem;\n  margin-left: auto;\n  z-index: 1;\n  position: relative;\n}\n\n.layout_header__2rhWq {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n", "",{"version":3,"sources":["/home/sean/code/datascienceslugs.github.io/components/layout.module.css"],"names":[],"mappings":"AAAA,8BAA8B;AAC9B;EACE,iBAAiB,EAAE,oCAAoC;EACvD,gBAAgB;EAChB,cAAc;EACd,kBAAkB;EAClB,qBAAqB,EAAE,0BAA0B;AACnD;;AAEA;EACE,gBAAgB;EAChB,eAAe;EACf,kBAAkB;EAClB,gBAAgB;EAChB,iBAAiB;EACjB,UAAU;EACV,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB","file":"layout.module.css","sourcesContent":["/* container  for entire page*/\n.PageContainer {\n  min-height: 100vh; /* will cover the 100% of viewport */\n  overflow: hidden;\n  display: block;\n  position: relative;\n  padding-bottom: 100px; /* height of your footer */\n}\n\n.content {\n  max-width: 40rem;\n  padding: 0 1rem;\n  margin-right: auto;\n  margin-top: 3rem;\n  margin-left: auto;\n  z-index: 1;\n  position: relative;\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n"]}]);
+exports.push([module.i, "/* container  for entire page*/\n.layout_PageContainer__u6MZq {\n  min-height: 100vh; /* will cover the 100% of viewport */\n  overflow: hidden;\n  display: block;\n  position: relative;\n  padding-bottom: 100px; /* height of your footer */\n}\n\n.layout_header__2rhWq {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n", "",{"version":3,"sources":["/home/sean/code/datascienceslugs.github.io/components/layout.module.css"],"names":[],"mappings":"AAAA,8BAA8B;AAC9B;EACE,iBAAiB,EAAE,oCAAoC;EACvD,gBAAgB;EAChB,cAAc;EACd,kBAAkB;EAClB,qBAAqB,EAAE,0BAA0B;AACnD;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB","file":"layout.module.css","sourcesContent":["/* container  for entire page*/\n.PageContainer {\n  min-height: 100vh; /* will cover the 100% of viewport */\n  overflow: hidden;\n  display: block;\n  position: relative;\n  padding-bottom: 100px; /* height of your footer */\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n"]}]);
 // Exports
 exports.locals = {
 	"PageContainer": "layout_PageContainer__u6MZq",
-	"content": "layout_content__3AeaV",
 	"header": "layout_header__2rhWq"
 };
 
@@ -23930,7 +23929,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!******************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fposts%2F%5Bid%5D&absolutePagePath=%2Fhome%2Fsean%2Fcode%2Fdatascienceslugs.github.io%2Fpages%2Fposts%2F%5Bid%5D.tsx ***!
   \******************************************************************************************************************************************************************/
@@ -23953,5 +23952,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=[id].js.map
