@@ -10,7 +10,7 @@ Install `yarn` and run `yarn` in the root directory.
 
 Make changes/add markdown files to `posts`. If a post is a blog post, set `blog: true`, else if its an information/general page, set `blog:false` and add it to the `navBar` array in [`config.tsx`](./config.tsx)
 
-Test to see if changes look right locally with `yarn dev`.
+Test to see if changes look right locally, test with `yarn dev`.
 
 Run `yarn export` to make sure everything compiles properly.
 
