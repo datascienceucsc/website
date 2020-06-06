@@ -174,11 +174,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _layout_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./layout.module.css */ "./components/layout.module.css");
 /* harmony import */ var _layout_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_layout_module_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../config */ "./config.tsx");
+/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../data */ "./data.tsx");
 var _this = undefined,
     _jsxFileName = "/home/sean/code/datascienceslugs.github.io/components/layout.tsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -191,7 +193,7 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 18,
       columnNumber: 7
     }
   }, __jsx("link", {
@@ -200,7 +202,7 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 19,
       columnNumber: 9
     }
   }), __jsx("meta", {
@@ -209,7 +211,7 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 20,
       columnNumber: 9
     }
   }), "/* for constellations on the home page, keep this in layout so that it doesnt get diffed out */", __jsx("script", {
@@ -217,7 +219,7 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 23,
       columnNumber: 9
     }
   }), __jsx("script", {
@@ -225,7 +227,7 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 24,
       columnNumber: 9
     }
   }), __jsx("script", {
@@ -233,7 +235,7 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 25,
       columnNumber: 9
     }
   })), __jsx("div", {
@@ -241,14 +243,14 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 7
     }
   }, __jsx("nav", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -256,7 +258,7 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 29,
       columnNumber: 11
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -265,14 +267,14 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 30,
       columnNumber: 13
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 31,
       columnNumber: 15
     }
   }, __jsx("img", {
@@ -282,7 +284,7 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 32,
       columnNumber: 17
     }
   })))), _config__WEBPACK_IMPORTED_MODULE_4__["navBar"].map(function (_ref2) {
@@ -293,7 +295,7 @@ var Layout = function Layout(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40,
+        lineNumber: 41,
         columnNumber: 13
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -302,7 +304,7 @@ var Layout = function Layout(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41,
+        lineNumber: 42,
         columnNumber: 15
       }
     }, __jsx("a", {
@@ -310,7 +312,7 @@ var Layout = function Layout(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45,
+        lineNumber: 46,
         columnNumber: 17
       }
     }, linkText)));
@@ -319,14 +321,14 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 51,
       columnNumber: 9
     }
   }, __jsx("main", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 52,
       columnNumber: 11
     }
   }, children), pageId !== "home" ? __jsx("div", {
@@ -334,7 +336,7 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 54,
       columnNumber: 13
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -343,14 +345,14 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 55,
       columnNumber: 15
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 56,
       columnNumber: 17
     }
   }, "\u2190 Back to home"))) : __jsx("div", {
@@ -358,14 +360,14 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 60,
       columnNumber: 13
     }
   })), __jsx("footer", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 63,
       columnNumber: 9
     }
   }, __jsx("div", {
@@ -373,70 +375,28 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 64,
       columnNumber: 11
     }
-  }, __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    href: "https://github.com/datascienceslugs",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65,
-      columnNumber: 15
-    }
-  }, "Github")), __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    href: "https://www.instagram.com/datascienceucsc/?igshid=1kwj608v894a5",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 15
-    }
-  }, "Instagram")), __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    href: "https://www.linkedin.com/company/datascienceucsc/",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73,
-      columnNumber: 15
-    }
-  }, "LinkedIn")), __jsx("div", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    href: "mailto:ucscdatascience@gmail.com",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78,
-      columnNumber: 15
-    }
-  }, "Email Us!"))))));
+  }, _data__WEBPACK_IMPORTED_MODULE_5__["footerLinks"].map(function (fInfo) {
+    return __jsx("div", {
+      key: fInfo.linkText,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66,
+        columnNumber: 15
+      }
+    }, __jsx("a", {
+      href: fInfo.href,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67,
+        columnNumber: 17
+      }
+    }, fInfo.linkText));
+  })))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -472,6 +432,65 @@ var navBar = [{
   linkText: "What is data science?",
   pageId: "what_is_ds"
 }];
+
+/***/ }),
+
+/***/ "./data.tsx":
+/*!******************!*\
+  !*** ./data.tsx ***!
+  \******************/
+/*! exports provided: footerLinks, people, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "footerLinks", function() { return footerLinks; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "people", function() { return people; });
+var footerLinks = [{
+  href: "https://github.com/datascienceslugs",
+  linkText: "Github"
+}, {
+  href: "https://www.instagram.com/datascienceucsc/?igshid=1kwj608v894a5",
+  linkText: "Instagram"
+}, {
+  href: "https://www.linkedin.com/company/datascienceucsc/",
+  linkText: "Linktext"
+}, {
+  href: "mailto:ucscdatascience@gmail.com",
+  linkText: "Email Us!"
+}];
+var people = [{
+  id: "anders",
+  name: "Anders Poirel",
+  role: "President"
+}, {
+  id: "julian",
+  name: "Julian Lehrer",
+  role: "Vice-President"
+}, {
+  id: "oasys",
+  name: "Oasys Okubo",
+  role: "Officer"
+},
+/*  {
+  id: "garret",
+  name: "Garret Leising",
+  role: "",
+}, */
+{
+  id: "bijay",
+  name: "Bijay Khadja",
+  role: "Officer"
+}, {
+  id: "sean",
+  name: "Sean Breckenridge",
+  role: "Officer, Webmaster"
+}, {
+  id: "ryan",
+  name: "Ryan Darling",
+  role: "Former President"
+}];
+/* harmony default export */ __webpack_exports__["default"] = (people);
 
 /***/ }),
 
