@@ -236,19 +236,43 @@ var Layout = function Layout(_ref) {
       lineNumber: 46,
       columnNumber: 9
     }
-  }, children), pageId === "home" ? __jsx(_constellation__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, children), pageId === "home" ? __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_constellation__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
-      columnNumber: 11
+      lineNumber: 49,
+      columnNumber: 13
     }
-  }) : __jsx("div", {
-    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.backToHome,
+  }), __jsx("script", {
+    src: "https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 50,
+      columnNumber: 13
+    }
+  }), __jsx("script", {
+    src: "https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 13
+    }
+  }), __jsx("script", {
+    src: "".concat("", "/constellation.js"),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52,
+      columnNumber: 13
+    }
+  })) : __jsx("div", {
+    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.backToHome,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 55,
       columnNumber: 11
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -257,41 +281,17 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 56,
       columnNumber: 13
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 57,
       columnNumber: 15
     }
-  }, "\u2190 Back to home")))), __jsx("script", {
-    src: "https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57,
-      columnNumber: 7
-    }
-  }), __jsx("script", {
-    src: "https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 7
-    }
-  }), __jsx("script", {
-    src: "".concat("", "/constellation.js"),
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59,
-      columnNumber: 7
-    }
-  }));
+  }, "\u2190 Back to home")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -6411,7 +6411,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 function Error(_ref) {
   var statusCode = _ref.statusCode;
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    pageId: statusCode.toString(),
+    pageId: statusCode ? statusCode.toString() : "Error",
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -6524,7 +6524,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=%2Fhome%2Fsean%2Fcode%2Fdatascienceslugs.github.io%2Fpages%2F_error.tsx ***!
   \**********************************************************************************************************************************************/
@@ -6547,5 +6547,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_error.js.map
