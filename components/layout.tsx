@@ -21,8 +21,7 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
         /* for constellations on the home page, keep this in layout so that it
         doesnt get diffed out */
         <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js"></script>
-        <script src={`/constellation.js`}></script>
+        <script src={"/js/constellation.js"}></script>
       </Head>
       <div className={styles.PageContainer}>
         <nav>
