@@ -20,11 +20,11 @@ const people = [
     name: "Oasys Okubo",
     role: "Officer",
   },
-  {
+/*  {
     id: "garret",
     name: "Garret Leising",
     role: "",
-  },
+  }, */
   {
     id: "bijay",
     name: "Bijay Khadja",
