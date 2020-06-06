@@ -345,8 +345,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "navBar", function() { return navBar; });
 // defines configuration for the website
 // name of site/title
-var name = "DataScienceSlugs";
-var siteTitle = "DSS @ UCSC";
+var name = "DataScience";
+var siteTitle = "Data Science @ SC";
 // define pages linked in the header
 // these ids correspond to the names of pages (without .md) in posts
 // the Home link is added automatically at the beginning of this list
@@ -23566,14 +23566,14 @@ var Home = function Home(_ref) {
       lineNumber: 22,
       columnNumber: 7
     }
-  }, __jsx("p", {
+  }, __jsx("h2", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
       columnNumber: 9
     }
-  }, "Data Science Stuff")), __jsx("section", {
+  }, "Data Science Club @ SC")), __jsx("section", {
     className: "".concat(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.headingMd, " ").concat(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.padding1px),
     __self: _this,
     __source: {
