@@ -23,6 +23,16 @@ body {
   background-color: #111;
 }
 
+.content {
+  max-width: 40rem;
+  padding: 0 1rem;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-left: auto;
+  z-index: 1;
+  position: relative;
+}
+
 main {
   margin-bottom: 3rem;
 }
@@ -92,7 +102,8 @@ nav a .fullLogo {
   filter: saturate(10%);
 }
 
-section > h2 {
+h1,
+h2 {
   text-align: center;
 }
 
@@ -100,4 +111,50 @@ hr {
   border: 1px white solid;
   width: 80%;
   text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #0a3144;
+}
+
+.footerContent {
+  display: flex;
+  padding-top: 4rem;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 1rem;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.backToHome {
+  margin-top: 4rem;
+}
+
+@media only screen and (max-width: 1000) and (min-width: 650px) {
+  .content {
+    max-width: 34rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .footerContent {
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .backToHome {
+    margin-bottom: 10rem;
+  }
+  .content {
+    max-width: 28rem;
+  }
 }

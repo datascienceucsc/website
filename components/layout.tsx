@@ -47,18 +47,20 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
             </div>
           ))}
         </nav>
-        <div className={styles.content}>
+        <div className="content">
           <main>{children}</main>
-          {pageId !== "home" && (
-            <div className={styles.backToHome}>
+          {pageId !== "home" ? (
+            <div className="backToHome">
               <Link href="/" as={process.env.BASE_URL + "/"}>
                 <a>← Back to home</a>
               </Link>
             </div>
+          ) : (
+            <div className={styles.backToHome}></div>
           )}
         </div>
-        <footer className={styles.footer}>
-          <div className={styles.footerContent}>
+        <footer>
+          <div className="footerContent">
             <div>
               <a href="https://github.com/datascienceslugs">Github</a>
             </div>

@@ -14,6 +14,7 @@
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 2rem;
 }
 
 .cardContainer {
@@ -23,8 +24,8 @@
   min-width: 50%;
 }
 
-.cardContainer img {
-  width: 100%;
+.cardImg {
+  width: 15rem;
   height: auto;
 }
 
