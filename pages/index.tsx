@@ -20,7 +20,7 @@ const Home: FunctionComponent<IndexProps> = ({ allPostsData }) => {
         <title>{siteTitle}</title>
       </Head>
       <section>
-        <h2>Data Science Club @ SC</h2>
+        <h2>Data Science @ SC</h2>
         <hr />
         <p>
           Data science is an interdisciplinary field based on computer science,
