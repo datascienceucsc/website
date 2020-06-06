@@ -151,20 +151,28 @@ var Layout = function Layout(_ref) {
       lineNumber: 20,
       columnNumber: 9
     }
-  })), __jsx("nav", {
+  })), __jsx("div", {
+    "class": _layout_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.PageContainer,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
       columnNumber: 7
     }
-  }, __jsx("div", {
-    key: "home",
+  }, __jsx("nav", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
       columnNumber: 9
+    }
+  }, __jsx("div", {
+    key: "home",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 11
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
@@ -172,15 +180,15 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 11
+      lineNumber: 25,
+      columnNumber: 13
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 13
+      lineNumber: 26,
+      columnNumber: 15
     }
   }, __jsx("img", {
     src: "".concat("", "/images/menu-bar.png"),
@@ -189,8 +197,8 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 15
+      lineNumber: 27,
+      columnNumber: 17
     }
   })))), _config__WEBPACK_IMPORTED_MODULE_5__["navBar"].map(function (_ref2) {
     var linkText = _ref2.linkText,
@@ -200,8 +208,8 @@ var Layout = function Layout(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35,
-        columnNumber: 11
+        lineNumber: 36,
+        columnNumber: 13
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
       href: "".concat("", "/posts/").concat(pageId),
@@ -209,71 +217,71 @@ var Layout = function Layout(_ref) {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 36,
-        columnNumber: 13
+        lineNumber: 37,
+        columnNumber: 15
       }
     }, __jsx("a", {
       className: "navItem",
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40,
-        columnNumber: 15
+        lineNumber: 41,
+        columnNumber: 17
       }
     }, linkText)));
   })), __jsx("div", {
-    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.container,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 7
-    }
-  }, __jsx("main", {
+    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.content,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 46,
       columnNumber: 9
     }
+  }, __jsx("main", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 11
+    }
   }, children), pageId === "home" ? __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_constellation__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
-      columnNumber: 13
+      lineNumber: 50,
+      columnNumber: 15
     }
   }), __jsx("script", {
     src: "https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 13
+      lineNumber: 51,
+      columnNumber: 15
     }
   }), __jsx("script", {
     src: "https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 13
+      lineNumber: 52,
+      columnNumber: 15
     }
   }), __jsx("script", {
     src: "".concat("", "/constellation.js"),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 13
+      lineNumber: 53,
+      columnNumber: 15
     }
   })) : __jsx("div", {
     className: _layout_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.backToHome,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 11
+      lineNumber: 56,
+      columnNumber: 13
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
@@ -281,17 +289,78 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 13
+      lineNumber: 57,
+      columnNumber: 15
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 58,
+      columnNumber: 17
+    }
+  }, "\u2190 Back to home")))), __jsx("footer", {
+    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.footer,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: _layout_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.footerContent,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 11
+    }
+  }, __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 13
+    }
+  }, __jsx("a", {
+    href: "https://github.com/datascienceslugs",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
       columnNumber: 15
     }
-  }, "\u2190 Back to home")))));
+  }, "Github")), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68,
+      columnNumber: 13
+    }
+  }, __jsx("a", {
+    href: "https://www.linkedin.com/company/datascienceucsc/",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69,
+      columnNumber: 15
+    }
+  }, "LinkedIn")), __jsx("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73,
+      columnNumber: 13
+    }
+  }, __jsx("a", {
+    href: "mailto:ucscdatascience@gmail.com",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74,
+      columnNumber: 15
+    }
+  }, "Email Us!"))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
@@ -320,6 +389,12 @@ var siteTitle = "Data Science @ SC";
 var navBar = [{
   linkText: "About",
   pageId: "about"
+}, {
+  linkText: "Resources",
+  pageId: "resources"
+}, {
+  linkText: "What is data science?",
+  pageId: "what_is_ds"
 }];
 
 /***/ }),
@@ -813,12 +888,15 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".layout_container__2t4v2 {\n  max-width: 36rem;\n  padding: 0 1rem;\n  margin: 3rem auto 6rem;\n  z-index: 1;\n}\n\n.layout_header__2rhWq {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.layout_backToHome__1vZsp {\n  margin: 3rem 0 0;\n}\n", "",{"version":3,"sources":["/home/sean/code/datascienceslugs.github.io/components/layout.module.css"],"names":[],"mappings":"AAAA;EACE,gBAAgB;EAChB,eAAe;EACf,sBAAsB;EACtB,UAAU;AACZ;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;AAClB","file":"layout.module.css","sourcesContent":[".container {\n  max-width: 36rem;\n  padding: 0 1rem;\n  margin: 3rem auto 6rem;\n  z-index: 1;\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.backToHome {\n  margin: 3rem 0 0;\n}\n"]}]);
+exports.push([module.i, "/* container  for entire page*/\n.layout_PageContainer__u6MZq {\n  min-height: 100vh; /* will cover the 100% of viewport */\n  overflow: hidden;\n  display: block;\n  position: relative;\n  padding-bottom: 100px; /* height of your footer */\n}\n\n.layout_content__3AeaV {\n  max-width: 36rem;\n  padding: 0 1rem;\n  margin-right: auto;\n  margin-top: 3rem;\n  margin-left: auto;\n  z-index: 1;\n  position: relative;\n}\n\n.layout_header__2rhWq {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.layout_backToHome__1vZsp {\n  margin-top: 4rem;\n}\n\n.layout_footer__127N0 {\n  text-align: center;\n  margin-left: auto;\n  margin-right: auto;\n  bottom: 0;\n  position: absolute;\n  width: 100%;\n  box-sizing: border-box;\n  background-color: #0a3144;\n}\n\n.layout_footerContent__2UwFd {\n  display: flex;\n  padding-top: 4rem;\n  margin-left: 30%;\n  margin-right: 30%;\n  padding: 1rem;\n  justify-content: space-around;\n}\n", "",{"version":3,"sources":["/home/sean/code/datascienceslugs.github.io/components/layout.module.css"],"names":[],"mappings":"AAAA,8BAA8B;AAC9B;EACE,iBAAiB,EAAE,oCAAoC;EACvD,gBAAgB;EAChB,cAAc;EACd,kBAAkB;EAClB,qBAAqB,EAAE,0BAA0B;AACnD;;AAEA;EACE,gBAAgB;EAChB,eAAe;EACf,kBAAkB;EAClB,gBAAgB;EAChB,iBAAiB;EACjB,UAAU;EACV,kBAAkB;AACpB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;EAClB,iBAAiB;EACjB,kBAAkB;EAClB,SAAS;EACT,kBAAkB;EAClB,WAAW;EACX,sBAAsB;EACtB,yBAAyB;AAC3B;;AAEA;EACE,aAAa;EACb,iBAAiB;EACjB,gBAAgB;EAChB,iBAAiB;EACjB,aAAa;EACb,6BAA6B;AAC/B","file":"layout.module.css","sourcesContent":["/* container  for entire page*/\n.PageContainer {\n  min-height: 100vh; /* will cover the 100% of viewport */\n  overflow: hidden;\n  display: block;\n  position: relative;\n  padding-bottom: 100px; /* height of your footer */\n}\n\n.content {\n  max-width: 36rem;\n  padding: 0 1rem;\n  margin-right: auto;\n  margin-top: 3rem;\n  margin-left: auto;\n  z-index: 1;\n  position: relative;\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.backToHome {\n  margin-top: 4rem;\n}\n\n.footer {\n  text-align: center;\n  margin-left: auto;\n  margin-right: auto;\n  bottom: 0;\n  position: absolute;\n  width: 100%;\n  box-sizing: border-box;\n  background-color: #0a3144;\n}\n\n.footerContent {\n  display: flex;\n  padding-top: 4rem;\n  margin-left: 30%;\n  margin-right: 30%;\n  padding: 1rem;\n  justify-content: space-around;\n}\n"]}]);
 // Exports
 exports.locals = {
-	"container": "layout_container__2t4v2",
+	"PageContainer": "layout_PageContainer__u6MZq",
+	"content": "layout_content__3AeaV",
 	"header": "layout_header__2rhWq",
-	"backToHome": "layout_backToHome__1vZsp"
+	"backToHome": "layout_backToHome__1vZsp",
+	"footer": "layout_footer__127N0",
+	"footerContent": "layout_footerContent__2UwFd"
 };
 
 /***/ }),
@@ -6524,7 +6602,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=%2Fhome%2Fsean%2Fcode%2Fdatascienceslugs.github.io%2Fpages%2F_error.tsx ***!
   \**********************************************************************************************************************************************/
@@ -6547,5 +6625,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_error.js.map
