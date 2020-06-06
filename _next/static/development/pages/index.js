@@ -223,7 +223,7 @@ var Layout = function Layout(_ref) {
       columnNumber: 9
     }
   }), __jsx("script", {
-    src: "/constellation.js",
+    src: "/js/constellation.js",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
