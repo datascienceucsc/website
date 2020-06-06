@@ -6,7 +6,7 @@ import Layout from "../../components/layout";
 import Date from "../../components/date";
 import { getAllPostIds, getPostData, PostData } from "../../lib/posts";
 import PersonCardContainer from "../../components/cards";
-import people, { Person } from "../../data";
+import { people, Person } from "../../data";
 import utilStyles from "../../styles/utils.module.css";
 
 // peopleinfo is the special case

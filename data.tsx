@@ -4,7 +4,33 @@ export interface Person {
   role: string;
 }
 
-const people = [
+export interface FooterLink {
+  href: string;
+  linkText: string;
+}
+
+export const footerLinks = [
+  {
+    href: "https://github.com/datascienceslugs",
+    linkText: "Github",
+  },
+  {
+    href: "https://www.instagram.com/datascienceucsc/?igshid=1kwj608v894a5",
+    linkText: "Instagram",
+  },
+
+  {
+    href: "https://www.linkedin.com/company/datascienceucsc/",
+    linkText: "Linktext",
+  },
+
+  {
+    href: "mailto:ucscdatascience@gmail.com",
+    linkText: "Email Us!",
+  },
+];
+
+export const people = [
   {
     id: "anders",
     name: "Anders Poirel",
@@ -20,7 +46,7 @@ const people = [
     name: "Oasys Okubo",
     role: "Officer",
   },
-/*  {
+  /*  {
     id: "garret",
     name: "Garret Leising",
     role: "",
@@ -33,7 +59,7 @@ const people = [
   {
     id: "sean",
     name: "Sean Breckenridge",
-    role: "Officer, Web Development Officer",
+    role: "Officer, Webmaster",
   },
   {
     id: "ryan",

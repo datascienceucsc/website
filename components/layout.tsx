@@ -5,6 +5,7 @@ import utilStyles from "../styles/utils.module.css";
 import { FunctionComponent } from "react";
 import styles from "./layout.module.css";
 import { name, siteTitle, navBar } from "../config";
+import { FooterLink, footerLinks } from "../data";
 
 type LayoutProps = {
   children: any[];
@@ -61,22 +62,11 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
         </div>
         <footer>
           <div className="footerContent">
-            <div>
-              <a href="https://github.com/datascienceslugs">Github</a>
-            </div>
-            <div>
-              <a href="https://www.instagram.com/datascienceucsc/?igshid=1kwj608v894a5">
-                Instagram
-              </a>
-            </div>
-            <div>
-              <a href="https://www.linkedin.com/company/datascienceucsc/">
-                LinkedIn
-              </a>
-            </div>
-            <div>
-              <a href="mailto:ucscdatascience@gmail.com">Email Us!</a>
-            </div>
+            {footerLinks.map((fInfo: FooterLink) => (
+              <div key={fInfo.linkText}>
+                <a href={fInfo.href}>{fInfo.linkText}</a>
+              </div>
+            ))}
           </div>
         </footer>
       </div>
