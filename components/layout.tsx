@@ -44,7 +44,9 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
       </nav>
       <div className={styles.container}>
         <main>{children}</main>
-        {pageId !== "home" && (
+        {pageId === "home" ? (
+          <Constellation />
+        ) : (
           <div className={styles.backToHome}>
             <Link href="/" as={process.env.BASE_URL + "/"}>
               <a>← Back to home</a>
@@ -52,7 +54,6 @@ const Layout: FunctionComponent<LayoutProps> = ({ children, pageId }) => {
           </div>
         )}
       </div>
-      <Constellation />
       <script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.0/zepto.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/stats.js/r11/Stats.js"></script>
       <script src={`${process.env.BASE_URL}/constellation.js`}></script>

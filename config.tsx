@@ -1,8 +1,8 @@
 // defines configuration for the website
 
 // name of site/title
-export const name = "DataScienceSlugs";
-export const siteTitle = "DSS @ UCSC";
+export const name = "DataScience";
+export const siteTitle = "Data Science @ SC";
 
 export interface NavbarInfo {
   linkText: string;

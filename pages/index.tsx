@@ -19,11 +19,24 @@ const Home: FunctionComponent<IndexProps> = ({ allPostsData }) => {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      <section className={utilStyles.headingMd}>
-        <p>Data Science Stuff</p>
+      <section>
+        <h2>Data Science Club @ SC</h2>
+        <hr />
+        <p>
+          Data science is an interdisciplinary field based on computer science,
+          mathematics, and statistics used to extract knowledge and create
+          meaningful insights from data.
+        </p>
+        <p>
+          Data Science @ SC brings together students from across computer
+          science, mathematics and other fields in order to bridge the gap
+          between academia and industry through workshops, machine learning
+          competitions and consulting projects.
+        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
+        <hr />
         <ul className={utilStyles.list}>
           {allPostsData
             // dont show non-blog pages on the blog
@@ -34,9 +47,8 @@ const Home: FunctionComponent<IndexProps> = ({ allPostsData }) => {
                   href={`${process.env.BASE_URL}/posts/[id]`}
                   as={`${process.env.BASE_URL}/posts/${id}`}
                 >
-                  <a>{title}</a>
+                  <a className={utilStyles.blogLink}>{title}</a>
                 </Link>
-                <br />
                 <small className={utilStyles.lightText}>
                   <Date dateString={date} />
                 </small>

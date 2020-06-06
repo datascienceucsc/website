@@ -27,7 +27,7 @@ canvas {
 }
 
 a {
-  color: #0070f3;
+  color: #487bf6;
   text-decoration: none;
 }
 
@@ -76,4 +76,14 @@ nav a .fullLogo {
 
 .fullLogo:hover {
   filter: saturate(10%);
+}
+
+section > h2 {
+  text-align: center;
+}
+
+hr {
+  border: 1px white solid;
+  width: 80%;
+  text-align: center;
 }
