@@ -183,7 +183,7 @@ var Layout = function Layout(_ref) {
       columnNumber: 13
     }
   }, __jsx("img", {
-    src: "".concat("", "/images/full-logo.png"),
+    src: "".concat("", "/images/menu-bar.png"),
     alt: "Home",
     className: "fullLogo",
     __self: _this,
@@ -6524,7 +6524,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=%2Fhome%2Fsean%2Fcode%2Fdatascienceslugs.github.io%2Fpages%2F_error.tsx ***!
   \**********************************************************************************************************************************************/
@@ -6547,5 +6547,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_error.js.map

@@ -1,153 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/posts/[id].js"],{
-
-/***/ "./components/cards.module.css":
-/*!*************************************!*\
-  !*** ./components/cards.module.css ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./cards.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/cards.module.css");
-
-if (typeof content === 'string') {
-  content = [[module.i, content, '']];
-}
-
-var options = {}
-
-options.insert = function(element){// These elements should always exist. If they do not,
-// this code should fail.
-var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
-// Each style tag should be placed right before our
-// anchor. By inserting before and not after, we do not
-// need to track the last inserted element.
-parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
-//
-// After styles are injected, we need to remove the
-// <style> tags that set `body { display: none; }`.
-//
-// We use `requestAnimationFrame` as a way to defer
-// this operation since there may be multiple style
-// tags.
-;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
-options.singleton = false;
-
-var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
-
-if (content.locals) {
-  module.exports = content.locals;
-}
-
-if (true) {
-  if (!content.locals) {
-    module.hot.accept(
-      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./cards.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/cards.module.css",
-      function () {
-        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./cards.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/cards.module.css");
-
-        if (typeof newContent === 'string') {
-          newContent = [[module.i, newContent, '']];
-        }
-        
-        update(newContent);
-      }
-    )
-  }
-
-  module.hot.dispose(function() { 
-    update();
-  });
-}
-
-/***/ }),
-
-/***/ "./components/cards.tsx":
-/*!******************************!*\
-  !*** ./components/cards.tsx ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _cards_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cards.module.css */ "./components/cards.module.css");
-/* harmony import */ var _cards_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_cards_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _this = undefined,
-    _jsxFileName = "/home/sean/code/datascienceslugs.github.io/components/cards.tsx";
-
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-// in case image for a user fails to load
-// default to some basic profile
-function addDefaultSrc(e) {
-  e.currentTarget.src = "/images/profile.png";
-}
-
-var PersonCardContainer = function PersonCardContainer(_ref) {
-  var peopleInfo = _ref.peopleInfo;
-  return __jsx("div", {
-    className: _cards_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.cardFlexBox,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 5
-    }
-  }, peopleInfo.map(function (p) {
-    return __jsx("div", {
-      className: _cards_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.card,
-      key: p.id,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 21,
-        columnNumber: 9
-      }
-    }, __jsx("img", {
-      src: "/images/person/".concat(p.id, ".png"),
-      onError: function onError(e) {
-        return addDefaultSrc(e);
-      },
-      alt: p.name,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 22,
-        columnNumber: 11
-      }
-    }), __jsx("div", {
-      className: _cards_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.cardContainer,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 27,
-        columnNumber: 11
-      }
-    }, __jsx("span", {
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 28,
-        columnNumber: 13
-      }
-    }, p.name), __jsx("p", {
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 29,
-        columnNumber: 13
-      }
-    }, p.role)));
-  }));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (PersonCardContainer);
-
-/***/ }),
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
 /***/ "./components/constellation.tsx":
 /*!**************************************!*\
@@ -365,7 +216,7 @@ var Layout = function Layout(_ref) {
       columnNumber: 13
     }
   }, __jsx("img", {
-    src: "".concat("", "/images/full-logo.png"),
+    src: "".concat("", "/images/menu-bar.png"),
     alt: "Home",
     className: "fullLogo",
     __self: _this,
@@ -983,25 +834,6 @@ module.exports = _typeof;
 
 module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/regenerator-runtime/runtime.js");
 
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/cards.module.css":
-/*!****************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./components/cards.module.css ***!
-  \****************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
-// Module
-exports.push([module.i, ".cards_card__2hnyE {\n  /* Add shadows to create the \"card\" effect */\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n  transition: 0.3s;\n}\n\n/* On mouse-over, add a deeper shadow */\n.cards_card__2hnyE:hover {\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);\n}\n\n.cards_cardFlexBox__1-HQl {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  flex-wrap: wrap;\n}\n\n.cards_cardContainer__2PIVF {\n  padding: 10px 16px;\n  box-sizing: border-box;\n  /* create 2 columns */\n  min-width: 50%;\n}\n\n.cards_cardContainer__2PIVF img {\n  width: 100%;\n  height: auto;\n}\n\n.cards_cardContainer__2PIVF span {\n  font-size: 1.25rem;\n  margin: 0;\n}\n.cards_cardContainer__2PIVF p {\n  margin: 0;\n  color: #999;\n}\n", "",{"version":3,"sources":["/home/sean/code/datascienceslugs.github.io/components/cards.module.css"],"names":[],"mappings":"AAAA;EACE,4CAA4C;EAC5C,0CAA0C;EAC1C,gBAAgB;AAClB;;AAEA,uCAAuC;AACvC;EACE,2CAA2C;AAC7C;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,6BAA6B;EAC7B,eAAe;AACjB;;AAEA;EACE,kBAAkB;EAClB,sBAAsB;EACtB,qBAAqB;EACrB,cAAc;AAChB;;AAEA;EACE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,SAAS;AACX;AACA;EACE,SAAS;EACT,WAAW;AACb","file":"cards.module.css","sourcesContent":[".card {\n  /* Add shadows to create the \"card\" effect */\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n  transition: 0.3s;\n}\n\n/* On mouse-over, add a deeper shadow */\n.card:hover {\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);\n}\n\n.cardFlexBox {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  flex-wrap: wrap;\n}\n\n.cardContainer {\n  padding: 10px 16px;\n  box-sizing: border-box;\n  /* create 2 columns */\n  min-width: 50%;\n}\n\n.cardContainer img {\n  width: 100%;\n  height: auto;\n}\n\n.cardContainer span {\n  font-size: 1.25rem;\n  margin: 0;\n}\n.cardContainer p {\n  margin: 0;\n  color: #999;\n}\n"]}]);
-// Exports
-exports.locals = {
-	"card": "cards_card__2hnyE",
-	"cardFlexBox": "cards_cardFlexBox__1-HQl",
-	"cardContainer": "cards_cardContainer__2PIVF"
-};
 
 /***/ }),
 
@@ -19011,21 +18843,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts%2F%5Bid%5D&absolutePagePath=%2Fhome%2Fsean%2Fcode%2Fdatascienceslugs.github.io%2Fpages%2Fposts%2F%5Bid%5D.tsx!./":
-/*!**************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts%2F%5Bid%5D&absolutePagePath=%2Fhome%2Fsean%2Fcode%2Fdatascienceslugs.github.io%2Fpages%2Fposts%2F%5Bid%5D.tsx ***!
-  \**************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fsean%2Fcode%2Fdatascienceslugs.github.io%2Fpages%2Findex.tsx!./":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fsean%2Fcode%2Fdatascienceslugs.github.io%2Fpages%2Findex.tsx ***!
+  \***********************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/posts/[id]", function() {
-      var mod = __webpack_require__(/*! ./pages/posts/[id].tsx */ "./pages/posts/[id].tsx")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
+      var mod = __webpack_require__(/*! ./pages/index.tsx */ "./pages/index.tsx")
       if(true) {
-        module.hot.accept(/*! ./pages/posts/[id].tsx */ "./pages/posts/[id].tsx", function() {
-          if(!next.router.components["/posts/[id]"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/posts/[id].tsx */ "./pages/posts/[id].tsx")
-          next.router.update("/posts/[id]", updatedPage)
+        module.hot.accept(/*! ./pages/index.tsx */ "./pages/index.tsx", function() {
+          if(!next.router.components["/"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/index.tsx */ "./pages/index.tsx")
+          next.router.update("/", updatedPage)
         })
       }
       return mod
@@ -23671,10 +23503,10 @@ module.exports = function (list, options) {
 
 /***/ }),
 
-/***/ "./pages/posts/[id].tsx":
-/*!******************************!*\
-  !*** ./pages/posts/[id].tsx ***!
-  \******************************/
+/***/ "./pages/index.tsx":
+/*!*************************!*\
+  !*** ./pages/index.tsx ***!
+  \*************************/
 /*! exports provided: __N_SSG, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -23685,14 +23517,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../config */ "./config.tsx");
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/layout */ "./components/layout.tsx");
-/* harmony import */ var _components_date__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/date */ "./components/date.tsx");
-/* harmony import */ var _components_cards__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/cards */ "./components/cards.tsx");
-/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../styles/utils.module.css */ "./styles/utils.module.css");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/layout */ "./components/layout.tsx");
+/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../config */ "./config.tsx");
+/* harmony import */ var _components_date__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/date */ "./components/date.tsx");
+/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/utils.module.css */ "./styles/utils.module.css");
 /* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6__);
 var _this = undefined,
-    _jsxFileName = "/home/sean/code/datascienceslugs.github.io/pages/posts/[id].tsx";
+    _jsxFileName = "/home/sean/code/datascienceslugs.github.io/pages/index.tsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -23701,82 +23534,154 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
- // peopleinfo is the special case
-// for about page to render cards
 
-// peopleinfo is the special case
-// for about page to render cards
-var Post = function Post(_ref) {
-  var postData = _ref.postData,
-      peopleInfo = _ref.peopleInfo;
+
+var Home = function Home(_ref) {
+  var allPostsData = _ref.allPostsData;
   return __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    pageId: postData.id,
+    pageId: "home",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 18,
       columnNumber: 5
     }
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 19,
       columnNumber: 7
     }
   }, __jsx("title", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, _config__WEBPACK_IMPORTED_MODULE_4__["siteTitle"])), __jsx("section", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }
+  }, __jsx("h2", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 9
+    }
+  }, "Data Science Club @ SC"), __jsx("hr", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 9
+    }
+  }), __jsx("p", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 25,
       columnNumber: 9
     }
-  }, _config__WEBPACK_IMPORTED_MODULE_2__["siteTitle"], " - ", postData.title)), __jsx("article", {
+  }, "Data science is an interdisciplinary field based on computer science, mathematics, and statistics used to extract knowledge and create meaningful insights from data."), __jsx("p", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
-      columnNumber: 7
-    }
-  }, postData.blog ? __jsx("div", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.lightText,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 11
-    }
-  }, __jsx(_components_date__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    dateString: postData.date,
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 13
-    }
-  })) : null, __jsx("div", {
-    dangerouslySetInnerHTML: {
-      __html: postData.contentHtml
-    },
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 30,
       columnNumber: 9
     }
-  })), peopleInfo && __jsx(_components_cards__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    peopleInfo: peopleInfo,
+  }, "Data Science @ SC brings together students from across computer science, mathematics and other fields in order to bridge the gap between academia and industry through workshops, machine learning competitions and consulting projects.")), __jsx("section", {
+    className: "".concat(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.headingMd, " ").concat(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.padding1px),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37,
-      columnNumber: 22
+      columnNumber: 7
     }
-  }));
+  }, __jsx("h2", {
+    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.headingLg,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 9
+    }
+  }, "Blog"), __jsx("hr", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 9
+    }
+  }), __jsx("ul", {
+    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.list,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 9
+    }
+  }, allPostsData // dont show non-blog pages on the blog
+  .filter(function (_ref2) {
+    var blog = _ref2.blog;
+    return blog;
+  }).map(function (_ref3) {
+    var id = _ref3.id,
+        date = _ref3.date,
+        title = _ref3.title;
+    return __jsx("li", {
+      className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.listItem,
+      key: id,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45,
+        columnNumber: 15
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+      href: "".concat("", "/posts/[id]"),
+      as: "".concat("", "/posts/").concat(id),
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46,
+        columnNumber: 17
+      }
+    }, __jsx("a", {
+      className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.blogLink,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50,
+        columnNumber: 19
+      }
+    }, title)), __jsx("small", {
+      className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.lightText,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52,
+        columnNumber: 17
+      }
+    }, __jsx(_components_date__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      dateString: date,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 53,
+        columnNumber: 19
+      }
+    })));
+  }))));
 };
 
 var __N_SSG = true;
-/* harmony default export */ __webpack_exports__["default"] = (Post);
+/* harmony default export */ __webpack_exports__["default"] = (Home);
 
 /***/ }),
 
@@ -23841,14 +23746,14 @@ if (true) {
 
 /***/ }),
 
-/***/ 1:
-/*!******************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fposts%2F%5Bid%5D&absolutePagePath=%2Fhome%2Fsean%2Fcode%2Fdatascienceslugs.github.io%2Fpages%2Fposts%2F%5Bid%5D.tsx ***!
-  \******************************************************************************************************************************************************************/
+/***/ 2:
+/*!***************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fsean%2Fcode%2Fdatascienceslugs.github.io%2Fpages%2Findex.tsx ***!
+  \***************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fposts%2F%5Bid%5D&absolutePagePath=%2Fhome%2Fsean%2Fcode%2Fdatascienceslugs.github.io%2Fpages%2Fposts%2F%5Bid%5D.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts%2F%5Bid%5D&absolutePagePath=%2Fhome%2Fsean%2Fcode%2Fdatascienceslugs.github.io%2Fpages%2Fposts%2F%5Bid%5D.tsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fsean%2Fcode%2Fdatascienceslugs.github.io%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fsean%2Fcode%2Fdatascienceslugs.github.io%2Fpages%2Findex.tsx!./");
 
 
 /***/ }),
@@ -23864,5 +23769,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=[id].js.map
+},[[2,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=index.js.map
