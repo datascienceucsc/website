@@ -1,7 +1,15 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
+  height: 100%;
+  position: relative;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -13,6 +21,10 @@ body {
   overflow-x: hidden;
   color: white;
   background-color: #111;
+}
+
+main {
+  margin-bottom: 3rem;
 }
 
 canvas {
@@ -56,7 +68,9 @@ nav {
 nav .navItem {
   height: max(8vh, 56px);
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
+  font-variant: small-caps;
+  text-rendering: auto;
   text-align: center;
   vertical-align: middle;
   margin-left: 1.25rem;

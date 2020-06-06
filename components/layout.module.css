@@ -1,8 +1,20 @@
-.container {
+/* container  for entire page*/
+.PageContainer {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
+}
+
+.content {
   max-width: 36rem;
   padding: 0 1rem;
-  margin: 3rem auto 6rem;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-left: auto;
   z-index: 1;
+  position: relative;
 }
 
 .header {
@@ -12,5 +24,25 @@
 }
 
 .backToHome {
-  margin: 3rem 0 0;
+  margin-top: 4rem;
+}
+
+.footer {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #0a3144;
+}
+
+.footerContent {
+  display: flex;
+  padding-top: 4rem;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding: 1rem;
+  justify-content: space-around;
 }

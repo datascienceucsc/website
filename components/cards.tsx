@@ -26,7 +26,13 @@ const PersonCardContainer: FunctionComponent<PersonCardContainerProps> = ({
           />
           <div className={cardStyles.cardContainer}>
             <span>{p.name}</span>
-            <p>{p.role}</p>
+            {p.role.includes(",") ? (
+              p.role.split(",").map((r: string) => {
+                return <p>{r}</p>;
+              })
+            ) : (
+              <p>{p.role}</p>
+            )}
           </div>
         </div>
       ))}
