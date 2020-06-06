@@ -14,7 +14,7 @@ document.body.appendChild(stats.domElement);
  * @author Acauã Montiel <contato@acauamontiel.com.br>
  * @license http://acaua.mit-license.org/
  */
-(function ($, window) {
+function createConstellation($, window) {
   var $window = $(window);
   /**
    * Makes a nice constellation on canvas
@@ -217,16 +217,28 @@ document.body.appendChild(stats.domElement);
       instantiate(this, options);
     });
   };
-})($, window);
+}
 
-// Init plugin
-$("canvas").constellation({
-  star: {
-    width: 3,
-  },
-  line: {
-    color: "rgba(255, 255, 255, .5)",
-  },
-  length: window.innerWidth / 6,
-  radius: window.innerWidth / 5,
-});
+window.initPlugin = () => {
+  // Init plugin
+  // if there is no canvas, create one
+  if ($("canvas").length === 0) {
+    var canvas = $("<canvas/>");
+    $("body").append(canvas);
+  }
+  // if the function to do animation is undefined
+  // define it, and run
+  if ($("canvas").constellation === undefined) {
+    createConstellation($, window);
+    $("canvas").constellation({
+      star: {
+        width: 3,
+      },
+      line: {
+        color: "rgba(255, 255, 255, .5)",
+      },
+      length: window.innerWidth / 6,
+      radius: window.innerWidth / 5,
+    });
+  }
+};
