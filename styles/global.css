@@ -85,12 +85,12 @@ nav {
   }
   nav > div:not(:first-child) {
     text-align: center;
-    border-radius: 3px;
   }
 }
 
 nav > div:not(:first-child):hover {
   background-color: #384474;
+  border-radius: 4px;
   transition: 0.5s;
   padding-bottom: 4px;
 }
@@ -108,10 +108,8 @@ nav .navItem {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 nav a:hover {
   text-decoration: none;
-  border-bottom: 1px white solid;
 }
 
 nav a .fullLogo {
