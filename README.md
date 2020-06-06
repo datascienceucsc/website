@@ -22,4 +22,4 @@ Home Page is done in [`./pages/index.tsx`](./pages/index.tsx), some of the parag
 
 All the other pages are done in Markdown, in `posts`. The `blog` key at the top of each markdown posts defines whether or not this is shown in the blog feed or not.
 
-The `about.md` page is special, `./pages/posts/[id].tsx` tries to match against the `about` pageId (name of file) and adds the officer cards to that page. Any other markdown file is just compiled with `matter` from markdown into HTML.
+The `about.md` page is special, `./pages/posts/[id].tsx` tries to match against the `about` pageId (name of file) and adds the officer cards to that page. Any other markdown file is just compiled with `remark` from markdown into HTML.
