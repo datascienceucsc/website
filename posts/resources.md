@@ -43,7 +43,7 @@ _Note: this is only necessary if you intend to run code on your local machine. Y
 Anaconda is the go-to Python distribution, and the `conda` package manager will
 help you circumvent many dependency issues.
 I recommend [miniconda](https://docs.conda.io/en/latest/miniconda.html). This is a minimal installation of Anaconda without the (buggy) GUI software.
-It is good practice to create seperate environments for each project to avoid dependency conflict.
+It is good practice to create separate environments for each project to avoid dependency conflict.
 
 - we recommend the [official tutorial](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) to get started
 

@@ -155,7 +155,7 @@ footer {
   }
   /* keep this here so that all of them have similar*/
   /* padding due to the offset of the font-size/content*/
-  /* on the psuedo tag */
+  /* on the pseudo tag */
   .footerContent > div:last-child::after {
     content: "";
   }
