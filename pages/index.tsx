@@ -25,15 +25,14 @@ const Home: FunctionComponent<IndexProps> = ({ allPostsData }) => {
         <h2>Data Science @ SC</h2>
         <hr />
         <p>
-          Data science is an interdisciplinary field based on computer science,
-          mathematics, and statistics used to extract knowledge and create
-          meaningful insights from data.
+          Data science is an inter-disciplinary field at the intersection of 
+          computer science and statistics that seeks to extract knowledge and 
+          create meaningful insights from data.
         </p>
         <p>
-          Data Science @ SC brings together students from across computer
-          science, mathematics and other fields in order to bridge the gap
+          Data Science @ UCSC brings students together to bridge the gap
           between academia and industry through workshops, machine learning
-          competitions and consulting projects.
+          competitions, guest lectures and consulting projects.
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
