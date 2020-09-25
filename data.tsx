@@ -11,7 +11,7 @@ export interface FooterLink {
 
 export const footerLinks = [
   {
-    href: "https://github.com/datascienceslugs",
+    href: "https://github.com/datascienceucsc",
     linkText: "Github",
   },
   {
