@@ -22,7 +22,7 @@ const Home: FunctionComponent<IndexProps> = ({ allPostsData }) => {
       </Head>
       <Constellation />
       <section>
-        <h2>Data Science @ SC</h2>
+        <h2>Data Science @ UCSC</h2>
         <hr />
         <p>
           Data science is an inter-disciplinary field at the intersection of 

@@ -14,15 +14,15 @@ export interface NavbarInfo {
 // the Home link is added automatically at the beginning of this list
 export const navBar = [
   {
-    linkText: "About",
+    linkText: "about",
     pageId: "about",
   },
   {
-    linkText: "Resources",
+    linkText: "resources",
     pageId: "resources"
   },
   {
-    linkText: "What is data science?",
+    linkText: "what is data science?",
     pageId: "what_is_ds"
   }
 ];

@@ -20,7 +20,7 @@ body {
   width: 100%;
   overflow-x: hidden;
   color: white;
-  background-color: #111;
+  background-color: #111111;
 }
 
 .content {
@@ -49,11 +49,12 @@ canvas {
 }
 
 a {
-  color: #487bf6;
+  color: #1295d8;
   text-decoration: none;
 }
 
 a:hover {
+  color: #005581;
   text-decoration: underline;
 }
 
@@ -62,12 +63,17 @@ img {
   display: block;
 }
 
+p {
+  text-align: justify;
+  text-justify: initial;
+}
+
 nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: #191a1a;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -89,8 +95,8 @@ nav {
 }
 
 nav > div:not(:first-child):hover {
-  background-color: #384474;
-  border-radius: 4px;
+  background-color: #005581;
+  border-radius: 0.25rem;
   transition: 0.5s;
   padding-bottom: 4px;
 }
@@ -129,7 +135,7 @@ h2 {
 
 hr {
   border: 1px white solid;
-  width: 80%;
+  width: 100%;
   text-align: center;
 }
 
@@ -142,7 +148,9 @@ footer {
   position: absolute;
   width: 100%;
   box-sizing: border-box;
-  background-color: #0a3144;
+  background-color: #191a1a;
+  border-top-right-radius: 0.75rem;
+  border-top-left-radius: 0.75rem;
 }
 
 /* while above 650px */

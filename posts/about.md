@@ -30,6 +30,6 @@ Additional reading groups and specific projects hold extra meetings in the week.
 
 ## Joining
 
-We communicate through our Slack workspace <https://datascienceslugs.slack.com>.
+We communicate through our Slack workspace, which you can join at [https://datascienceslugs.slack.com](https://datascienceslugs.slack.com).
 
 
