@@ -33,8 +33,8 @@ Step (2) is often called Exploratory Data Analysis, or EDA for short. This often
 
 ## 3. How do I do this myself?
 
-For manipulating our datasets, we often use a python library called [`pandas`](https://pandas.pydata.org/). Essentially, we can think of our data as a spreadsheet or excel table, where each column is a feature and the last is our output. Pandas allows us to easily and efficiently work with these tables (called `DataFrames`).
+For manipulating our datasets, we usually use the Python library [`pandas`](https://pandas.pydata.org/). Essentially, we can usually think of numerical data as a spreadsheet or excel table, where each row is an observation, each column is a feature. Pandas allows us to easily and efficiently work with these tables (called `DataFrames`).
 
-To make our machine learning models, there are many options. A common choice for classical models is [Scikit-Learn](https://scikit-learn.org/stable/), which also implements many facilities for testing and evaluation. [Tensorflow](https://www.tensorflow.org/) and [PyTorch](https://pytorch.org/) are commonly used for deep learning models.
+There are several libraries we commonly use to create machine learning models. For classical models, [Scikit-Learn](https://scikit-learn.org/stable/), provides quick model generation and also implements options for model testing and evaluation. [Tensorflow](https://www.tensorflow.org/) and [PyTorch](https://pytorch.org/) are usually used for deep learning models.
 
 Finally, it is important to keep track of your files and where you are in your workflow, especially when working in a team. For this reason, we strongly recommend you learn `git`.
