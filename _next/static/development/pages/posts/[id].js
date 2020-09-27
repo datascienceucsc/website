@@ -527,7 +527,7 @@ __webpack_require__.r(__webpack_exports__);
 // defines configuration for the website
 // name of site/title
 var name = "DataScience";
-var siteTitle = "Data Science @ SC";
+var siteTitle = "Data Science @ UCSC";
 // define pages linked in the header
 // these ids correspond to the names of pages (without .md) in posts
 // the Home link is added automatically at the beginning of this list
