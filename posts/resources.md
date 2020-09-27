@@ -22,9 +22,9 @@ to team repositories and joining live coding sessions.
 #### Git
 
 To be effective you will also need [git](https://git-scm.com/downloads) locally. Be sure to select Git Bash at installation if you use Windows.
-If you do not know any git, [Pro Git](https://git-scm.com/book/en/v2) is a great resource to get you started
+If you do not know any git, [Pro Git](https://git-scm.com/book/en/v2) is a great resource to get you started.
 
-- reading the first two chapters will be enough for a working knowledge of Git.
+- Reading the first two chapters will be enough for a working knowledge of Git.
 
 #### Visual Studio Code
 
@@ -45,9 +45,9 @@ help you circumvent many dependency issues.
 I recommend [miniconda](https://docs.conda.io/en/latest/miniconda.html). This is a minimal installation of Anaconda without the (buggy) GUI software.
 It is good practice to create separate environments for each project to avoid dependency conflict.
 
-- we recommend the [official tutorial](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) to get started
+- We recommend the [official tutorial](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) to get started
 
-##### Alternative
+#### Alternative
 
 [Google Colab](https://colab.research.google.com/) runs in the browser and comes with
 all the libraries you need to do basic data science in Python. This will get you

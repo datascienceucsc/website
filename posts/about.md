@@ -16,9 +16,9 @@ if you already have quantitative and/or programming background!
 ## Activities
 
 Some of the events we organize:
-- Guest lectures
 - Machine learning competitions
 - Programming workshops
+- Guest lectures
 - Socials
 - Reading groups
 
