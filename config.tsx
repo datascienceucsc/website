@@ -2,7 +2,7 @@
 
 // name of site/title
 export const name = "DataScience";
-export const siteTitle = "Data Science @ SC";
+export const siteTitle = "Data Science @ UCSC";
 
 export interface NavbarInfo {
   linkText: string;
