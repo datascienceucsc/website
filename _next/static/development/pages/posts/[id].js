@@ -75,7 +75,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _cards_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cards.module.css */ "./components/cards.module.css");
 /* harmony import */ var _cards_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_cards_module_css__WEBPACK_IMPORTED_MODULE_1__);
 var _this = undefined,
-    _jsxFileName = "/home/apoirel/datascienceucsc/website/components/cards.tsx";
+    _jsxFileName = "/Users/julian/Documents/Projects/website/components/cards.tsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -194,7 +194,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var date_fns__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! date-fns */ "./node_modules/date-fns/esm/index.js");
-var _jsxFileName = "/home/apoirel/datascienceucsc/website/components/date.tsx";
+var _jsxFileName = "/Users/julian/Documents/Projects/website/components/date.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -295,7 +295,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../config */ "./config.tsx");
 /* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../data */ "./data.tsx");
 var _this = undefined,
-    _jsxFileName = "/home/apoirel/datascienceucsc/website/components/layout.tsx";
+    _jsxFileName = "/Users/julian/Documents/Projects/website/components/layout.tsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -1092,7 +1092,7 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".cards_card__2hnyE {\n  /* Add shadows to create the \"card\" effect */\n  box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2);\n  transition: 0.3s;\n  border-radius: 0.75rem;\n  margin-top: 1rem;\n  background: #191a1a;\n  \n}\n\n/* On mouse-over, add a deeper shadow */\n.cards_card__2hnyE:hover {\n  box-shadow: 0 8px 16px 0 rgba(20, 20, 20, 0.2);\n}\n\n.cards_cardFlexBox__1-HQl {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  flex-wrap: wrap;\n  margin-top: 2rem;\n}\n\n.cards_cardContainer__2PIVF {\n  padding: 10px 16px;\n  box-sizing: border-box;\n  /* create 2 columns */\n  min-width: 50%;\n}\n\n.cards_cardImg__3ZuDq {\n  width: 15rem;\n  height: auto;\n  border-radius: 0.75rem;\n}\n\n.cards_cardContainer__2PIVF span {\n  font-size: 1.25rem;\n  margin: 0;\n}\n.cards_cardContainer__2PIVF p {\n  margin: 0;\n  color: #999;\n}\n", "",{"version":3,"sources":["/home/apoirel/datascienceucsc/website/components/cards.module.css"],"names":[],"mappings":"AAAA;EACE,4CAA4C;EAC5C,4CAA4C;EAC5C,gBAAgB;EAChB,sBAAsB;EACtB,gBAAgB;EAChB,mBAAmB;;AAErB;;AAEA,uCAAuC;AACvC;EACE,8CAA8C;AAChD;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,6BAA6B;EAC7B,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;EAClB,sBAAsB;EACtB,qBAAqB;EACrB,cAAc;AAChB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,sBAAsB;AACxB;;AAEA;EACE,kBAAkB;EAClB,SAAS;AACX;AACA;EACE,SAAS;EACT,WAAW;AACb","file":"cards.module.css","sourcesContent":[".card {\n  /* Add shadows to create the \"card\" effect */\n  box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2);\n  transition: 0.3s;\n  border-radius: 0.75rem;\n  margin-top: 1rem;\n  background: #191a1a;\n  \n}\n\n/* On mouse-over, add a deeper shadow */\n.card:hover {\n  box-shadow: 0 8px 16px 0 rgba(20, 20, 20, 0.2);\n}\n\n.cardFlexBox {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  flex-wrap: wrap;\n  margin-top: 2rem;\n}\n\n.cardContainer {\n  padding: 10px 16px;\n  box-sizing: border-box;\n  /* create 2 columns */\n  min-width: 50%;\n}\n\n.cardImg {\n  width: 15rem;\n  height: auto;\n  border-radius: 0.75rem;\n}\n\n.cardContainer span {\n  font-size: 1.25rem;\n  margin: 0;\n}\n.cardContainer p {\n  margin: 0;\n  color: #999;\n}\n"]}]);
+exports.push([module.i, ".cards_card__2hnyE {\n  /* Add shadows to create the \"card\" effect */\n  box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2);\n  transition: 0.3s;\n  border-radius: 0.75rem;\n  margin-top: 1rem;\n  background: #191a1a;\n  \n}\n\n/* On mouse-over, add a deeper shadow */\n.cards_card__2hnyE:hover {\n  box-shadow: 0 8px 16px 0 rgba(20, 20, 20, 0.2);\n}\n\n.cards_cardFlexBox__1-HQl {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  flex-wrap: wrap;\n  margin-top: 2rem;\n}\n\n.cards_cardContainer__2PIVF {\n  padding: 10px 16px;\n  box-sizing: border-box;\n  /* create 2 columns */\n  min-width: 50%;\n}\n\n.cards_cardImg__3ZuDq {\n  width: 15rem;\n  height: auto;\n  border-radius: 0.75rem;\n}\n\n.cards_cardContainer__2PIVF span {\n  font-size: 1.25rem;\n  margin: 0;\n}\n.cards_cardContainer__2PIVF p {\n  margin: 0;\n  color: #999;\n}\n", "",{"version":3,"sources":["/Users/julian/Documents/Projects/website/components/cards.module.css"],"names":[],"mappings":"AAAA;EACE,4CAA4C;EAC5C,4CAA4C;EAC5C,gBAAgB;EAChB,sBAAsB;EACtB,gBAAgB;EAChB,mBAAmB;;AAErB;;AAEA,uCAAuC;AACvC;EACE,8CAA8C;AAChD;;AAEA;EACE,aAAa;EACb,mBAAmB;EACnB,6BAA6B;EAC7B,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,kBAAkB;EAClB,sBAAsB;EACtB,qBAAqB;EACrB,cAAc;AAChB;;AAEA;EACE,YAAY;EACZ,YAAY;EACZ,sBAAsB;AACxB;;AAEA;EACE,kBAAkB;EAClB,SAAS;AACX;AACA;EACE,SAAS;EACT,WAAW;AACb","file":"cards.module.css","sourcesContent":[".card {\n  /* Add shadows to create the \"card\" effect */\n  box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2);\n  transition: 0.3s;\n  border-radius: 0.75rem;\n  margin-top: 1rem;\n  background: #191a1a;\n  \n}\n\n/* On mouse-over, add a deeper shadow */\n.card:hover {\n  box-shadow: 0 8px 16px 0 rgba(20, 20, 20, 0.2);\n}\n\n.cardFlexBox {\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  flex-wrap: wrap;\n  margin-top: 2rem;\n}\n\n.cardContainer {\n  padding: 10px 16px;\n  box-sizing: border-box;\n  /* create 2 columns */\n  min-width: 50%;\n}\n\n.cardImg {\n  width: 15rem;\n  height: auto;\n  border-radius: 0.75rem;\n}\n\n.cardContainer span {\n  font-size: 1.25rem;\n  margin: 0;\n}\n.cardContainer p {\n  margin: 0;\n  color: #999;\n}\n"]}]);
 // Exports
 exports.locals = {
 	"card": "cards_card__2hnyE",
@@ -1112,7 +1112,7 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "/* container  for entire page*/\n.layout_PageContainer__u6MZq {\n  min-height: 100vh; /* will cover the 100% of viewport */\n  overflow: hidden;\n  display: block;\n  position: relative;\n  padding-bottom: 100px; /* height of your footer */\n}\n\n.layout_header__2rhWq {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n", "",{"version":3,"sources":["/home/apoirel/datascienceucsc/website/components/layout.module.css"],"names":[],"mappings":"AAAA,8BAA8B;AAC9B;EACE,iBAAiB,EAAE,oCAAoC;EACvD,gBAAgB;EAChB,cAAc;EACd,kBAAkB;EAClB,qBAAqB,EAAE,0BAA0B;AACnD;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB","file":"layout.module.css","sourcesContent":["/* container  for entire page*/\n.PageContainer {\n  min-height: 100vh; /* will cover the 100% of viewport */\n  overflow: hidden;\n  display: block;\n  position: relative;\n  padding-bottom: 100px; /* height of your footer */\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n"]}]);
+exports.push([module.i, "/* container  for entire page*/\n.layout_PageContainer__u6MZq {\n  min-height: 100vh; /* will cover the 100% of viewport */\n  overflow: hidden;\n  display: block;\n  position: relative;\n  padding-bottom: 100px; /* height of your footer */\n}\n\n.layout_header__2rhWq {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n", "",{"version":3,"sources":["/Users/julian/Documents/Projects/website/components/layout.module.css"],"names":[],"mappings":"AAAA,8BAA8B;AAC9B;EACE,iBAAiB,EAAE,oCAAoC;EACvD,gBAAgB;EAChB,cAAc;EACd,kBAAkB;EAClB,qBAAqB,EAAE,0BAA0B;AACnD;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB","file":"layout.module.css","sourcesContent":["/* container  for entire page*/\n.PageContainer {\n  min-height: 100vh; /* will cover the 100% of viewport */\n  overflow: hidden;\n  display: block;\n  position: relative;\n  padding-bottom: 100px; /* height of your footer */\n}\n\n.header {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n"]}]);
 // Exports
 exports.locals = {
 	"PageContainer": "layout_PageContainer__u6MZq",
@@ -1130,7 +1130,7 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".utils_heading2Xl__1I65m {\n  font-size: 2.5rem;\n  line-height: 1.2;\n  font-weight: 800;\n  letter-spacing: -0.05rem;\n  margin: 1rem 0;\n}\n\n.utils_headingXl__1XecN {\n  font-size: 2rem;\n  line-height: 1.3;\n  font-weight: 800;\n  letter-spacing: -0.05rem;\n  margin: 1rem 0;\n}\n\n.utils_headingLg__de7p0 {\n  font-size: 1.5rem;\n  line-height: 1.4;\n  margin: 1rem 0;\n}\n\n.utils_headingMd__3de6G {\n  font-size: 1.2rem;\n  line-height: 1.5;\n}\n\n.utils_borderCircle__13qdJ {\n  border-radius: 9999px;\n}\n\n.utils_colorInherit__3Gudf {\n  color: inherit;\n}\n\n.utils_padding1px__oCny8 {\n  padding-top: 1px;\n}\n\n.utils_list__S7_pe {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  margin-top: 3rem;\n}\n\n.utils_listItem__2eJpJ {\n  margin: 1.25rem;\n  margin-left: 10%;\n}\n\n.utils_lightText__12Ckm {\n  color: #666;\n}\n\n.utils_blogLink__1eFXD {\n  margin-right: 1.25rem;\n}\n\n.utils_error__Zj3JF {\n  font-size: 200%;\n}\n", "",{"version":3,"sources":["/home/apoirel/datascienceucsc/website/styles/utils.module.css"],"names":[],"mappings":"AAAA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,gBAAgB;EAChB,wBAAwB;EACxB,cAAc;AAChB;;AAEA;EACE,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,wBAAwB;EACxB,cAAc;AAChB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,cAAc;AAChB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;AAClB;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;EAChB,UAAU;EACV,SAAS;EACT,gBAAgB;AAClB;;AAEA;EACE,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,eAAe;AACjB","file":"utils.module.css","sourcesContent":[".heading2Xl {\n  font-size: 2.5rem;\n  line-height: 1.2;\n  font-weight: 800;\n  letter-spacing: -0.05rem;\n  margin: 1rem 0;\n}\n\n.headingXl {\n  font-size: 2rem;\n  line-height: 1.3;\n  font-weight: 800;\n  letter-spacing: -0.05rem;\n  margin: 1rem 0;\n}\n\n.headingLg {\n  font-size: 1.5rem;\n  line-height: 1.4;\n  margin: 1rem 0;\n}\n\n.headingMd {\n  font-size: 1.2rem;\n  line-height: 1.5;\n}\n\n.borderCircle {\n  border-radius: 9999px;\n}\n\n.colorInherit {\n  color: inherit;\n}\n\n.padding1px {\n  padding-top: 1px;\n}\n\n.list {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  margin-top: 3rem;\n}\n\n.listItem {\n  margin: 1.25rem;\n  margin-left: 10%;\n}\n\n.lightText {\n  color: #666;\n}\n\n.blogLink {\n  margin-right: 1.25rem;\n}\n\n.error {\n  font-size: 200%;\n}\n"]}]);
+exports.push([module.i, ".utils_heading2Xl__1I65m {\n  font-size: 2.5rem;\n  line-height: 1.2;\n  font-weight: 800;\n  letter-spacing: -0.05rem;\n  margin: 1rem 0;\n}\n\n.utils_headingXl__1XecN {\n  font-size: 2rem;\n  line-height: 1.3;\n  font-weight: 800;\n  letter-spacing: -0.05rem;\n  margin: 1rem 0;\n}\n\n.utils_headingLg__de7p0 {\n  font-size: 1.5rem;\n  line-height: 1.4;\n  margin: 1rem 0;\n}\n\n.utils_headingMd__3de6G {\n  font-size: 1.2rem;\n  line-height: 1.5;\n}\n\n.utils_borderCircle__13qdJ {\n  border-radius: 9999px;\n}\n\n.utils_colorInherit__3Gudf {\n  color: inherit;\n}\n\n.utils_padding1px__oCny8 {\n  padding-top: 1px;\n}\n\n.utils_list__S7_pe {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  margin-top: 3rem;\n}\n\n.utils_listItem__2eJpJ {\n  margin: 1.25rem;\n  margin-left: 10%;\n}\n\n.utils_lightText__12Ckm {\n  color: #666;\n}\n\n.utils_blogLink__1eFXD {\n  margin-right: 1.25rem;\n}\n\n.utils_error__Zj3JF {\n  font-size: 200%;\n}\n", "",{"version":3,"sources":["/Users/julian/Documents/Projects/website/styles/utils.module.css"],"names":[],"mappings":"AAAA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,gBAAgB;EAChB,wBAAwB;EACxB,cAAc;AAChB;;AAEA;EACE,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,wBAAwB;EACxB,cAAc;AAChB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;EAChB,cAAc;AAChB;;AAEA;EACE,iBAAiB;EACjB,gBAAgB;AAClB;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;EAChB,UAAU;EACV,SAAS;EACT,gBAAgB;AAClB;;AAEA;EACE,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE,eAAe;AACjB","file":"utils.module.css","sourcesContent":[".heading2Xl {\n  font-size: 2.5rem;\n  line-height: 1.2;\n  font-weight: 800;\n  letter-spacing: -0.05rem;\n  margin: 1rem 0;\n}\n\n.headingXl {\n  font-size: 2rem;\n  line-height: 1.3;\n  font-weight: 800;\n  letter-spacing: -0.05rem;\n  margin: 1rem 0;\n}\n\n.headingLg {\n  font-size: 1.5rem;\n  line-height: 1.4;\n  margin: 1rem 0;\n}\n\n.headingMd {\n  font-size: 1.2rem;\n  line-height: 1.5;\n}\n\n.borderCircle {\n  border-radius: 9999px;\n}\n\n.colorInherit {\n  color: inherit;\n}\n\n.padding1px {\n  padding-top: 1px;\n}\n\n.list {\n  list-style: none;\n  padding: 0;\n  margin: 0;\n  margin-top: 3rem;\n}\n\n.listItem {\n  margin: 1.25rem;\n  margin-left: 10%;\n}\n\n.lightText {\n  color: #666;\n}\n\n.blogLink {\n  margin-right: 1.25rem;\n}\n\n.error {\n  font-size: 200%;\n}\n"]}]);
 // Exports
 exports.locals = {
 	"heading2Xl": "utils_heading2Xl__1I65m",
@@ -19108,10 +19108,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts%2F%5Bid%5D&absolutePagePath=%2Fhome%2Fapoirel%2Fdatascienceucsc%2Fwebsite%2Fpages%2Fposts%2F%5Bid%5D.tsx!./":
-/*!*********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts%2F%5Bid%5D&absolutePagePath=%2Fhome%2Fapoirel%2Fdatascienceucsc%2Fwebsite%2Fpages%2Fposts%2F%5Bid%5D.tsx ***!
-  \*********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts%2F%5Bid%5D&absolutePagePath=%2FUsers%2Fjulian%2FDocuments%2FProjects%2Fwebsite%2Fpages%2Fposts%2F%5Bid%5D.tsx!./":
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts%2F%5Bid%5D&absolutePagePath=%2FUsers%2Fjulian%2FDocuments%2FProjects%2Fwebsite%2Fpages%2Fposts%2F%5Bid%5D.tsx ***!
+  \**************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23789,7 +23789,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../styles/utils.module.css */ "./styles/utils.module.css");
 /* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_6__);
 var _this = undefined,
-    _jsxFileName = "/home/apoirel/datascienceucsc/website/pages/posts/[id].tsx";
+    _jsxFileName = "/Users/julian/Documents/Projects/website/pages/posts/[id].tsx";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -23939,13 +23939,13 @@ if (true) {
 /***/ }),
 
 /***/ 2:
-/*!*************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fposts%2F%5Bid%5D&absolutePagePath=%2Fhome%2Fapoirel%2Fdatascienceucsc%2Fwebsite%2Fpages%2Fposts%2F%5Bid%5D.tsx ***!
-  \*************************************************************************************************************************************************************/
+/*!******************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fposts%2F%5Bid%5D&absolutePagePath=%2FUsers%2Fjulian%2FDocuments%2FProjects%2Fwebsite%2Fpages%2Fposts%2F%5Bid%5D.tsx ***!
+  \******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fposts%2F%5Bid%5D&absolutePagePath=%2Fhome%2Fapoirel%2Fdatascienceucsc%2Fwebsite%2Fpages%2Fposts%2F%5Bid%5D.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts%2F%5Bid%5D&absolutePagePath=%2Fhome%2Fapoirel%2Fdatascienceucsc%2Fwebsite%2Fpages%2Fposts%2F%5Bid%5D.tsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fposts%2F%5Bid%5D&absolutePagePath=%2FUsers%2Fjulian%2FDocuments%2FProjects%2Fwebsite%2Fpages%2Fposts%2F%5Bid%5D.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fposts%2F%5Bid%5D&absolutePagePath=%2FUsers%2Fjulian%2FDocuments%2FProjects%2Fwebsite%2Fpages%2Fposts%2F%5Bid%5D.tsx!./");
 
 
 /***/ }),
