@@ -15,7 +15,7 @@ Most club communications will be through [Slack](https://slack.com/).
 #### Github
 
 You should have a [Github](https://github.com/) account.
-Message Julan Lehrer or Anders Poirel on Slack so that you can be added to our
+Message Julian Lehrer or Anders Poirel on Slack so that you can be added to our
 organization on Github. This is will be necessary for ushing your contributions
 to team repositories and joining live coding sessions.
 
