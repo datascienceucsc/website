@@ -18,9 +18,9 @@ Classification refers to making a categorical prediction, meaning our output wil
 
 The other is regression. Regression means we are trying to predict some continuous variable. Maybe the price of a house, or the amount of rainfall (by inches) for a given month. These types of variables don’t just take on a discrete number of values, but rather a continuous value in a given range.
 
-## 2. Okay, great. So what does the workflow usually look like?
+## 2. What does the workflow usually look like?
 
-Great question! It’s important to understand what our general goal is, but equally as important to understand the tech stack behind our work. The general data science workflow goes something like this:
+It’s important to understand what our general goal is, but equally as important to understand the tech stack behind our work. The general data science modeling workflow goes something like this:
 
 - Figure out what we are trying to predict, and whether we are performing a classification or regression task.
 - Look through our data.
