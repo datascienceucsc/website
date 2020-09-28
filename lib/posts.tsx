@@ -22,7 +22,7 @@ export function getSortedPostsData(): MatterInfo[] {
   // Get file names under /posts
   const fileNames = fs
     .readdirSync(postsDirectory)
-    .filter((f) => f.endsWith("*.md"));
+    .filter((f) => f.endsWith(".md"));
   const allPostsData = fileNames.map((fileName) => {
     // Remove ".md" from file name to get id
     const id = fileName.replace(/\.md$/, "");
