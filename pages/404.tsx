@@ -1,10 +1,8 @@
 import Head from "next/head";
-import status from "http-status";
 
 import Layout from "../components/layout";
 import utilStyles from "../styles/utils.module.css";
-import styles from "./layout.module.css";
-import { name, siteTitle, navBar } from "../config";
+import { siteTitle } from "../config";
 
 function NotFound({ statusCode }) {
   return (

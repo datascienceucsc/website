@@ -1,5 +1,4 @@
 import React from "react";
-import utilStyles from "../styles/utils.module.css";
 
 export default class Constellation extends React.Component {
   componentDidMount() {

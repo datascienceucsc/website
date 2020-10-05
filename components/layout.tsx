@@ -1,10 +1,9 @@
 import Head from "next/head";
 import Link from "next/link";
 
-import utilStyles from "../styles/utils.module.css";
 import { FunctionComponent } from "react";
 import styles from "./layout.module.css";
-import { name, siteTitle, navBar } from "../config";
+import { siteTitle, navBar } from "../config";
 import { FooterLink, footerLinks } from "../data";
 
 type LayoutProps = {

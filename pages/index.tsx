@@ -7,7 +7,6 @@ import Layout from "../components/layout";
 import { siteTitle } from "../config";
 import Date from "../components/date";
 import { getSortedPostsData, MatterInfo } from "../lib/posts";
-import people from "../data";
 import utilStyles from "../styles/utils.module.css";
 
 interface IndexProps {

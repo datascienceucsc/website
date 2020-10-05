@@ -1,4 +1,4 @@
-import people, { Person } from "../data";
+import { Person } from "../data";
 import { FunctionComponent, SyntheticEvent } from "react";
 import cardStyles from "./cards.module.css";
 

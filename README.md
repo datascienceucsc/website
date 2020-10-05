@@ -12,7 +12,7 @@ Make changes/add markdown files to `posts`. If a post is a blog post, set `blog:
 
 Test to see if changes look right locally, test with `yarn dev`.
 
-Run `yarn export` to make sure everything compiles properly.
+Run `yarn export` to make sure everything compiles properly, and `yarn serve` to test the exported website (at `./out`)
 
 Run `yarn deploy` to compile to static site and push to `gh-pages` branch. Site should update in a few minutes.
 

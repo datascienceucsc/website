@@ -18,6 +18,7 @@ export interface PostData extends MatterInfo {
   contentHtml: string;
 }
 
+
 export function getSortedPostsData(): MatterInfo[] {
   // Get file names under /posts
   const fileNames = fs
@@ -65,7 +66,7 @@ export function getAllPostIds() {
   });
 }
 
-export async function getPostData(id): Promise<PostData> {
+export async function getPostData(id: string): Promise<PostData> {
   const fullPath = path.join(postsDirectory, `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
 
