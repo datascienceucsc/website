@@ -35,7 +35,7 @@ const Home: FunctionComponent<IndexProps> = ({ allPostsData }) => {
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Events</h2>
         <hr />
         <ul className={utilStyles.list}>
           {allPostsData
