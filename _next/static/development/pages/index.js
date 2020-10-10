@@ -23933,7 +23933,7 @@ var Home = function Home(_ref) {
       lineNumber: 38,
       columnNumber: 9
     }
-  }, "Blog"), __jsx("hr", {
+  }, "Events"), __jsx("hr", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
