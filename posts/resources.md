@@ -10,8 +10,6 @@ Find tutorials from past quarters at [github.com/datascienceucsc/workshops](http
 
 ## Software
 
-A list of the software we use.
-
 ### Slack 
 
 We primarly communicate through Slack at [datascienceucsc.slack.com](datascienceucsc.slack.com).
