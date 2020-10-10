@@ -18,8 +18,8 @@ We primarly communicate through Slack at [datascienceucsc.slack.com](datascience
 
 ### Git
 
-We collaborate on code using Github at [datascienceucsc](https://github.com/datascienceucsc).
-This is where you can find most of our past work, including competitions and workshops.
+We collaborate though Github at [datascienceucsc](https://github.com/datascienceucsc).
+This hosts most of our past work, including competitions and workshops.
 
 To get access to our Github organization, message an officer on Slack or on Instagram 
 [@datascienceuscs](https://www.instagram.com/datascienceucsc/) with your Github username and
@@ -32,6 +32,10 @@ In addition, we recommend installing [git](https://git-scm.com/) locally.
 Workings on projects will require access to a development environment for Python
 or R. 
 
+#### R
+
+*Coming soon*
+
 #### Python
 
 We recommend one of the following three options to set up a development environment 
@@ -39,10 +43,11 @@ for Python and Jupyter Lab.
  
 ##### 1. Google Colab 
 
-[Google Colab](https://colab.research.google.com) serves Jupyter notebooks in the browser without requiring a local installation.
+[Google Colab](https://colab.research.google.com) serves Jupyter notebooks in the browser 
+without a local installation.
 
 This is a great way to get started if you are not comfortable with the command 
-line and Python package management, but we recommend that you enventually learn
+line or Python package management, but we recommend that you enventually learn
 how to set up a local environment. 
 
 ##### 2. Conda
@@ -53,12 +58,7 @@ which we recommend for managing and creating local Python installations.
 To help you get started, we provide 
 [pre-defined environments](https://github.com/datascienceucsc/environments).
 
-
 ##### 3. Docker (advanced)
-
-*Coming soon*
-
-#### R
 
 *Coming soon*
 
