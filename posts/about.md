@@ -30,9 +30,9 @@ Click to subscribe and stay up-to-date on all of our events.
 
 ## Joining
 
-- We communicate through Slack at [datascienceucsc.slack.com](https://datascienceucsc.slack.com). 
+- We communicate through Slack at [datascienceucsc.slack.com](https://datascienceucsc.slack.com). You can join [by clicking here](https://join.slack.com/t/datascienceucsc/shared_invite/zt-hxv1phk2-hUu1bJm_3BIrD7Cqt1BRWw). 
 
-- For an invite link, email us at [ucscdatascience@gmail.com](), or message us on Instagram [@datascienceucsc](https://www.instagram.com/datascienceucsc/). 
+- You can email us at [ucscdatascience@gmail.com]("mailto: ucscdatascience@gmail.com"), or message us on Instagram [@datascienceucsc](https://www.instagram.com/datascienceucsc/). 
 
 - We welcome students from all majors, though you’ll have an easier time 
 if you already have some quantitative and/or programming background!
