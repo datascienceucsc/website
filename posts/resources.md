@@ -30,10 +30,6 @@ In addition, we recommend installing [git](https://git-scm.com/) locally.
 Workings on projects will require access to a development environment for Python
 or R. 
 
-#### R
-
-*Coming soon*
-
 #### Python
 
 We recommend one of the following three options to set up a development environment 
