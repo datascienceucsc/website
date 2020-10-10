@@ -64,7 +64,7 @@ export const people = [
   {
     id: "ryan",
     name: "Ryan Darling",
-    role: "Former President",
+    role: "Officer, Former President",
   },
 ];
 
