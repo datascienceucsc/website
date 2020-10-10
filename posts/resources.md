@@ -10,7 +10,7 @@ This is the software we use to work on projects:
 
 #### Slack
 
-Most club communications will be through [Slack](https://slack.com/).
+Most club communications will be through [Slack](https://datascienceucsc.slack.com). You can find an invite link on the about page. 
 
 #### Github
 
