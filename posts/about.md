@@ -21,20 +21,20 @@ Some of the events we organize:
 
 ## Meetings
 
-**Weekly meeting:** Thursdays 5pm-6:30pm. 
+- **Weekly meeting:** Thursdays 5pm-6:30pm. 
 
-**Additional meetings**: Reading groups and specific projects hold extra meetings in the week.
+- **Additional meetings**: Reading groups and specific projects hold extra meetings in the week.
 
-**Google Calendar**: [datascienceucsc@gmail.com](https://calendar.google.com/calendar/u/5?cid=dWNzY2RhdGFzY2llbmNlQGdtYWlsLmNvbQ). 
+- **Google Calendar**: [datascienceucsc@gmail.com](https://calendar.google.com/calendar/u/5?cid=dWNzY2RhdGFzY2llbmNlQGdtYWlsLmNvbQ). 
 Click to subscribe and stay up-to-date on all of our events.
 
 ## Joining
 
-We communicate through Slack at [datascienceucsc.slack.com](https://datascienceucsc.slack.com). 
+- We communicate through Slack at [datascienceucsc.slack.com](https://datascienceucsc.slack.com). 
 
-For an invite link, email us at [ucscdatascience@gmail.com](), or message us on Instagram [@datascienceucsc](https://www.instagram.com/datascienceucsc/). 
+- For an invite link, email us at [ucscdatascience@gmail.com](), or message us on Instagram [@datascienceucsc](https://www.instagram.com/datascienceucsc/). 
 
-We welcome students from all majors, though you’ll have an easier time 
+- We welcome students from all majors, though you’ll have an easier time 
 if you already have some quantitative and/or programming background!
 
 
