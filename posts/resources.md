@@ -12,7 +12,7 @@ Find tutorials from past quarters at [github.com/datascienceucsc/workshops](http
 
 ### Slack 
 
-We primarly communicate through Slack at [datascienceucsc.slack.com](datascienceucsc.slack.com).
+We primarly communicate through Slack at [datascienceucsc.slack.com](datascienceucsc.slack.com). Join [here](https://join.slack.com/t/datascienceucsc/shared_invite/zt-hxv1phk2-hUu1bJm_3BIrD7Cqt1BRWw). 
 
 ### Git
 
